@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_custom_content_root_elem">
+    <sys_ux_custom_content_root_elem action="DELETE">
+        <active>true</active>
+        <applicability>single</applicability>
+        <applicable_page display_value="Doctor">a7ca4155dba05010447d2095ca9619d5</applicable_page>
+        <attrs/>
+        <children/>
+        <component display_value="sn-workspace-toolbar-button">c599f5f3b6554fd79cd983bf4ea75968</component>
+        <is_root>true</is_root>
+        <layout/>
+        <macroponent/>
+        <macroponent_config/>
+        <name>Approve Appointments Button</name>
+        <order>100</order>
+        <page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</page>
+        <parent/>
+        <parent_slot/>
+        <picker/>
+        <picker_condition/>
+        <placeholder display_value="Workspace Toolbar Buttons">1232bfb5730c330075e8f358caf6a7ca</placeholder>
+        <sys_class_name>sys_ux_custom_content_root_elem</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 07:03:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>03b4195ddba05010447d2095ca9619d1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Approve Appointments Button</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_ux_custom_content_root_elem_03b4195ddba05010447d2095ca9619d1</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 07:03:38</sys_updated_on>
+        <tree_root/>
+    </sys_ux_custom_content_root_elem>
+    <sys_variable_value action="DELETE" query="document_key=03b4195ddba05010447d2095ca9619d1"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_ux_custom_content_root_elem</document>
+        <document_key>03b4195ddba05010447d2095ca9619d1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 07:03:38</sys_created_on>
+        <sys_id>1fb4995ddba05010447d2095ca961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 07:03:38</sys_updated_on>
+        <value>Approve Appointments</value>
+        <variable display_value="">b5b65fd20c3c13fbd299dce1ef797184</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_ux_custom_content_root_elem</document>
+        <document_key>03b4195ddba05010447d2095ca9619d1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 07:03:38</sys_created_on>
+        <sys_id>5bb4995ddba05010447d2095ca961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 07:03:38</sys_updated_on>
+        <value>calendar-clock-fill</value>
+        <variable display_value="">674bdc908b8ed17eb631bec92971a228</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_ux_custom_content_root_elem</document>
+        <document_key>03b4195ddba05010447d2095ca9619d1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 07:03:38</sys_created_on>
+        <sys_id>93b4995ddba05010447d2095ca961904</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 07:03:38</sys_updated_on>
+        <value>Approve appointments</value>
+        <variable display_value="">f497a95e69778d0f72f3f0d2df450266</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</application>
+        <file_path/>
+        <instance_id>cfb231404f00d600facf220f0310c748</instance_id>
+        <instance_name>hackathon090</instance_name>
+        <name>sys_ux_custom_content_root_elem_03b4195ddba05010447d2095ca9619d1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_custom_content_root_elem"><sys_ux_custom_content_root_elem action="INSERT_OR_UPDATE"><active>true</active><applicability>single</applicability><applicable_page display_value="Doctor">a7ca4155dba05010447d2095ca9619d5</applicable_page><attrs/><children/><component display_value="sn-workspace-toolbar-button">c599f5f3b6554fd79cd983bf4ea75968</component><is_root>true</is_root><layout/><macroponent/><macroponent_config/><name>Approve Appointments Button</name><order>100</order><page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</page><parent/><parent_slot/><picker/><picker_condition/><placeholder display_value="Workspace Toolbar Buttons">1232bfb5730c330075e8f358caf6a7ca</placeholder><sys_class_name>sys_ux_custom_content_root_elem</sys_class_name><sys_created_by>avssrikanth99</sys_created_by><sys_created_on>2020-05-02 07:03:38</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>03b4195ddba05010447d2095ca9619d1</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Approve Appointments Button</sys_name><sys_overrides/><sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package><sys_policy/><sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope><sys_update_name>sys_ux_custom_content_root_elem_03b4195ddba05010447d2095ca9619d1</sys_update_name><sys_updated_by>avssrikanth99</sys_updated_by><sys_updated_on>2020-05-02 07:03:38</sys_updated_on><tree_root/></sys_ux_custom_content_root_elem><sys_variable_value action="delete_multiple" query="document_key=03b4195ddba05010447d2095ca9619d1"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_ux_custom_content_root_elem</document><document_key>03b4195ddba05010447d2095ca9619d1</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>avssrikanth99</sys_created_by><sys_created_on>2020-05-02 07:03:38</sys_created_on><sys_id>1fb4995ddba05010447d2095ca961904</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>avssrikanth99</sys_updated_by><sys_updated_on>2020-05-02 07:03:38</sys_updated_on><value>Approve Appointments</value><variable display_value="">b5b65fd20c3c13fbd299dce1ef797184</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_ux_custom_content_root_elem</document><document_key>03b4195ddba05010447d2095ca9619d1</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>avssrikanth99</sys_created_by><sys_created_on>2020-05-02 07:03:38</sys_created_on><sys_id>5bb4995ddba05010447d2095ca961904</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>avssrikanth99</sys_updated_by><sys_updated_on>2020-05-02 07:03:38</sys_updated_on><value>calendar-clock-fill</value><variable display_value="">674bdc908b8ed17eb631bec92971a228</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_ux_custom_content_root_elem</document><document_key>03b4195ddba05010447d2095ca9619d1</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>avssrikanth99</sys_created_by><sys_created_on>2020-05-02 07:03:38</sys_created_on><sys_id>93b4995ddba05010447d2095ca961904</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>avssrikanth99</sys_updated_by><sys_updated_on>2020-05-02 07:03:38</sys_updated_on><value>Approve appointments</value><variable display_value="">f497a95e69778d0f72f3f0d2df450266</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>-291979135</payload_hash>
+        <record_name>Approve Appointments Button</record_name>
+        <reverted_from/>
+        <source>28f9c38ddb2c1010447d2095ca9619ae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 07:03:38</sys_created_on>
+        <sys_id>9bb4995ddba05010447d2095ca961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d4329b230000001</sys_recorded_at>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 07:03:38</sys_updated_on>
+        <type>UX Custom Content Extension</type>
+        <update_guid>17b4995d52a0501073cbcedc71935306</update_guid>
+        <update_guid_history>17b4995d52a0501073cbcedc71935306:-291979135,4fb4595de1a0501048516546f4c2b3fe:1627441506</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 07:11:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_custom_content_root_elem">sys_ux_custom_content_root_elem</sys_db_object>
+        <sys_id>89a91d55feba4b9ea083b16260a4d324</sys_id>
+        <sys_metadata>03b4195ddba05010447d2095ca9619d1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approve Appointments Button</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_scope_delete display_value="">2296593c1ecc48008ab2077093804000</sys_scope_delete>
+        <sys_update_name>sys_ux_custom_content_root_elem_03b4195ddba05010447d2095ca9619d1</sys_update_name>
+        <sys_update_version display_value="sys_ux_custom_content_root_elem_03b4195ddba05010447d2095ca9619d1">9bb4995ddba05010447d2095ca961906</sys_update_version>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 07:11:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="e4ac1fc9db6c1010447d2095ca9619bb" sys_domain="global" table="x_snc_hsm_patient" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>avssrikanth99</sys_created_by>
+            <sys_created_on>2020-05-01 22:18:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a8ac1fc9db6c1010447d2095ca9619bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hsm_patient" name="x_snc_hsm_patient" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">e4ac1fc9db6c1010447d2095ca9619bb</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_patient" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">5f539b85db6c1010447d2095ca96191b</sys_ui_section>
+            <sys_updated_by>avssrikanth99</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:18:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>avssrikanth99</sys_created_by>
+            <sys_created_on>2020-05-01 22:18:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>68ac1fc9db6c1010447d2095ca9619be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hsm_patient" name="x_snc_hsm_patient" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">e4ac1fc9db6c1010447d2095ca9619bb</sys_ui_form>
+            <sys_ui_section caption="Insurance Details" display_value="Insurance Details" name="x_snc_hsm_patient" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">a0ac1fc9db6c1010447d2095ca9619ba</sys_ui_section>
+            <sys_updated_by>avssrikanth99</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:18:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_hsm_patient</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>avssrikanth99</sys_created_by>
+            <sys_created_on>2020-05-01 22:18:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e4ac1fc9db6c1010447d2095ca9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_hsm_patient</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_e4ac1fc9db6c1010447d2095ca9619bb</sys_update_name>
+            <sys_updated_by>avssrikanth99</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:18:53</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">939aa3d8dbd300100f1eccfa139619a2</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

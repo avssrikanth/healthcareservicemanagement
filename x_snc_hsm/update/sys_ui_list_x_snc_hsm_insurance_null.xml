@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_hsm_insurance" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_snc_hsm_insurance" element="NULL" name="x_snc_hsm_insurance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e75e4519dba05010447d2095ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-02 06:35:48</sys_created_on>
+            <sys_id>275e4519dba05010447d2095ca9619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-02 06:35:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_currency_4</element>
+            <list_id display_value="x_snc_hsm_insurance" element="NULL" name="x_snc_hsm_insurance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e75e4519dba05010447d2095ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-02 06:35:48</sys_created_on>
+            <sys_id>2b5e4519dba05010447d2095ca9619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-02 06:35:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_currency_5</element>
+            <list_id display_value="x_snc_hsm_insurance" element="NULL" name="x_snc_hsm_insurance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e75e4519dba05010447d2095ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-02 06:35:48</sys_created_on>
+            <sys_id>2f5e4519dba05010447d2095ca9619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-02 06:35:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_reference_caserecord</element>
+            <list_id display_value="x_snc_hsm_insurance" element="NULL" name="x_snc_hsm_insurance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e75e4519dba05010447d2095ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-02 06:35:48</sys_created_on>
+            <sys_id>235e4519dba05010447d2095ca9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-02 06:35:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_reference_patienthistory</element>
+            <list_id display_value="x_snc_hsm_insurance" element="NULL" name="x_snc_hsm_insurance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e75e4519dba05010447d2095ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-02 06:35:48</sys_created_on>
+            <sys_id>275e4519dba05010447d2095ca9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-02 06:35:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_string_state</element>
+            <list_id display_value="x_snc_hsm_insurance" element="NULL" name="x_snc_hsm_insurance" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">e75e4519dba05010447d2095ca9619c2</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-02 06:35:48</sys_created_on>
+            <sys_id>2b5e4519dba05010447d2095ca9619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-02 06:35:48</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_hsm_insurance</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-02 06:35:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e75e4519dba05010447d2095ca9619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_hsm_insurance</sys_name>
+            <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_hsm_insurance_null</sys_update_name>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-02 06:35:48</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

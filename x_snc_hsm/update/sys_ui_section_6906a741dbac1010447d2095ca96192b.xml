@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="6906a741dbac1010447d2095ca96192b" sys_domain="global" table="x_snc_hsm_diagnostic" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>chalanbl</sys_created_by>
+            <sys_created_on>2020-05-03 11:40:42</sys_created_on>
+            <sys_id>2bbd9fa1db209010447d2095ca961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_diagnostic" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">6906a741dbac1010447d2095ca96192b</sys_ui_section>
+            <sys_updated_by>chalanbl</sys_updated_by>
+            <sys_updated_on>2020-05-03 11:40:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reference_didnumber.doctor_name</element>
+            <position>1</position>
+            <sys_created_by>chalanbl</sys_created_by>
+            <sys_created_on>2020-05-03 11:40:42</sys_created_on>
+            <sys_id>afbd9fa1db209010447d2095ca961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_diagnostic" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">6906a741dbac1010447d2095ca96192b</sys_ui_section>
+            <sys_updated_by>chalanbl</sys_updated_by>
+            <sys_updated_on>2020-05-03 11:40:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reference_pidnumber.u_patient_name</element>
+            <position>2</position>
+            <sys_created_by>chalanbl</sys_created_by>
+            <sys_created_on>2020-05-03 11:40:42</sys_created_on>
+            <sys_id>27bd9fa1db209010447d2095ca961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_diagnostic" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">6906a741dbac1010447d2095ca96192b</sys_ui_section>
+            <sys_updated_by>chalanbl</sys_updated_by>
+            <sys_updated_on>2020-05-03 11:40:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>case_number</element>
+            <position>3</position>
+            <sys_created_by>chalanbl</sys_created_by>
+            <sys_created_on>2020-05-03 11:40:42</sys_created_on>
+            <sys_id>abbd9fa1db209010447d2095ca961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_diagnostic" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">6906a741dbac1010447d2095ca96192b</sys_ui_section>
+            <sys_updated_by>chalanbl</sys_updated_by>
+            <sys_updated_on>2020-05-03 11:40:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>chalanbl</sys_created_by>
+            <sys_created_on>2020-05-03 11:40:42</sys_created_on>
+            <sys_id>23bd9fa1db209010447d2095ca961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_diagnostic" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">6906a741dbac1010447d2095ca96192b</sys_ui_section>
+            <sys_updated_by>chalanbl</sys_updated_by>
+            <sys_updated_on>2020-05-03 11:40:42</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_statae</element>
+            <position>5</position>
+            <sys_created_by>chalanbl</sys_created_by>
+            <sys_created_on>2020-05-03 11:40:42</sys_created_on>
+            <sys_id>a7bd9fa1db209010447d2095ca961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_diagnostic" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">6906a741dbac1010447d2095ca96192b</sys_ui_section>
+            <sys_updated_by>chalanbl</sys_updated_by>
+            <sys_updated_on>2020-05-03 11:40:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_list_test_priscribed</element>
+            <position>6</position>
+            <sys_created_by>chalanbl</sys_created_by>
+            <sys_created_on>2020-05-03 11:40:42</sys_created_on>
+            <sys_id>2fbd9fa1db209010447d2095ca961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_diagnostic" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">6906a741dbac1010447d2095ca96192b</sys_ui_section>
+            <sys_updated_by>chalanbl</sys_updated_by>
+            <sys_updated_on>2020-05-03 11:40:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_currency_diagnosticbill</element>
+            <position>7</position>
+            <sys_created_by>chalanbl</sys_created_by>
+            <sys_created_on>2020-05-03 11:40:42</sys_created_on>
+            <sys_id>a3bd9fa1db209010447d2095ca961988</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_diagnostic" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">6906a741dbac1010447d2095ca96192b</sys_ui_section>
+            <sys_updated_by>chalanbl</sys_updated_by>
+            <sys_updated_on>2020-05-03 11:40:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_hsm_diagnostic</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>avssrikanth99</sys_created_by>
+            <sys_created_on>2020-05-01 22:59:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6906a741dbac1010447d2095ca96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_hsm_diagnostic</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+            <sys_update_name>sys_ui_section_6906a741dbac1010447d2095ca96192b</sys_update_name>
+            <sys_updated_by>avssrikanth99</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:59:55</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">939aa3d8dbd300100f1eccfa139619a2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

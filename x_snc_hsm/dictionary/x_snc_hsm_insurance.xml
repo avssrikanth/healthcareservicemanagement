@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Insurance" max_length="40" name="x_snc_hsm_insurance" sizeclass="11" text_index="true" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="INS Number" max_length="40" name="number" type="string"/>
+        <element attributes="omit_sys_original=true" label="Total Claimed Amount" max_length="20" name="u_currency_4" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Total Approved Amount" max_length="20" name="u_currency_5" type="currency"/>
+        <element attributes="encode_utf8=false" label="Case Record" max_length="32" name="u_reference_caserecord" reference="x_snc_hsm_case" type="reference"/>
+        <element attributes="encode_utf8=false" label="Patient Record" max_length="32" name="u_reference_patienthistory" reference="x_snc_hsm_patient" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="claim in progress" label="State" max_length="40" name="u_string_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Claim In Progress" sequence="0" value="claim in progress"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_reference_caserecord"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_patienthistory"/>
+        </index>
+    </element>
+</database>

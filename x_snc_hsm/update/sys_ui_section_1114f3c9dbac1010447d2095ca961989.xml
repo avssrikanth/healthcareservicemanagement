@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="1114f3c9dbac1010447d2095ca961989" sys_domain="global" table="x_snc_hsm_insurance" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>avssrikanth99</sys_created_by>
+            <sys_created_on>2020-05-02 00:01:20</sys_created_on>
+            <sys_id>dd14f3c9dbac1010447d2095ca96198c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_insurance" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">1114f3c9dbac1010447d2095ca961989</sys_ui_section>
+            <sys_updated_by>avssrikanth99</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:01:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_state</element>
+            <position>1</position>
+            <sys_created_by>avssrikanth99</sys_created_by>
+            <sys_created_on>2020-05-02 00:01:20</sys_created_on>
+            <sys_id>5514f3c9dbac1010447d2095ca96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_insurance" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">1114f3c9dbac1010447d2095ca961989</sys_ui_section>
+            <sys_updated_by>avssrikanth99</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:01:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reference_patienthistory</element>
+            <position>2</position>
+            <sys_created_by>avssrikanth99</sys_created_by>
+            <sys_created_on>2020-05-02 00:01:20</sys_created_on>
+            <sys_id>d914f3c9dbac1010447d2095ca96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_insurance" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">1114f3c9dbac1010447d2095ca961989</sys_ui_section>
+            <sys_updated_by>avssrikanth99</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:01:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reference_caserecord</element>
+            <position>3</position>
+            <sys_created_by>avssrikanth99</sys_created_by>
+            <sys_created_on>2020-05-02 00:01:20</sys_created_on>
+            <sys_id>5114f3c9dbac1010447d2095ca96198e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_insurance" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">1114f3c9dbac1010447d2095ca961989</sys_ui_section>
+            <sys_updated_by>avssrikanth99</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:01:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_currency_4</element>
+            <position>4</position>
+            <sys_created_by>avssrikanth99</sys_created_by>
+            <sys_created_on>2020-05-02 00:01:20</sys_created_on>
+            <sys_id>d514f3c9dbac1010447d2095ca96198e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_insurance" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">1114f3c9dbac1010447d2095ca961989</sys_ui_section>
+            <sys_updated_by>avssrikanth99</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:01:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_currency_5</element>
+            <position>5</position>
+            <sys_created_by>avssrikanth99</sys_created_by>
+            <sys_created_on>2020-05-02 00:01:20</sys_created_on>
+            <sys_id>5d14f3c9dbac1010447d2095ca96198e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_insurance" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">1114f3c9dbac1010447d2095ca961989</sys_ui_section>
+            <sys_updated_by>avssrikanth99</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:01:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_hsm_insurance</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>avssrikanth99</sys_created_by>
+            <sys_created_on>2020-05-02 00:01:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1114f3c9dbac1010447d2095ca961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_hsm_insurance</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+            <sys_update_name>sys_ui_section_1114f3c9dbac1010447d2095ca961989</sys_update_name>
+            <sys_updated_by>avssrikanth99</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:01:20</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">939aa3d8dbd300100f1eccfa139619a2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

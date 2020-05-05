@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="General Physician">010f345ddb605010447d2095ca9619f7</sc_cat_item>
+        <sc_category display_value="Book an Appointment">d3690115dba05010447d2095ca96197a</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-02 06:16:08</sys_created_on>
+        <sys_id>53d90915dba05010447d2095ca961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Book an Appointment.General Physician</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sc_cat_item_category_53d90915dba05010447d2095ca961972</sys_update_name>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-02 06:16:08</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

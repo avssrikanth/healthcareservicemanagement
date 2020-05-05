@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_hsm.Case_Record_Ajax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Case_Record_Ajax</name>
+        <script><![CDATA[var Case_Record_Ajax = Class.create();
+Case_Record_Ajax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getPatientName: function() {
+        var gr = new GlideRecord('x_snc_hsm_patient');
+        gr.addQuery('sys_id', this.getParameter('sysparm_patient'));
+        gr.query();
+        if (gr.next()) {
+            if (!gs.nil(gr.u_patient_name)) {
+                return gr.u_patient_name.toString();
+            }
+        }
+    },
+
+    getDoctorDetails: function() {
+        var data = [];
+        // gs.addInfoMessage("this.getParameter('sysparm_category' : " + this.getParameter('sysparm_category'));
+        var gr = new GlideRecord('x_snc_hsm_doctor');
+        gr.addQuery('specialization', this.getParameter('sysparm_category'));
+        gr.query();
+
+        while (gr.next()) {
+            // gs.addInfoMessage(gr.doctor_name);
+
+            var flag = false;
+            var choice = gr.doctor_name;
+            for (var i = 0; i < data.length; i++) {
+                if (choice == data[i])
+                    flag = true;
+            }
+            if (!gs.nil(choice) && flag == false) {
+                data.push(gr.doctor_name.toString());
+            }
+        }
+        // gs.addInfoMessage(data);
+        return data.toString();
+    },
+	
+getTimeSlotDetails: function() {
+        var data = [];
+        // gs.addInfoMessage("this.getParameter('sysparm_category' : " + this.getParameter('sysparm_category'));
+        var gr = new GlideRecord('x_snc_hsm_doctor');
+        // gr.addQuery('specialization', this.getParameter('sysparm_date')); 
+        gr.addQuery('doctor_name', this.getParameter('sysparm_docter'));
+        gr.query();
+
+        if (gr.next()) {
+            var doctorSysID = gr.sys_id;
+        }
+
+        var gr1 = new GlideRecord("x_snc_hsm_timeslot_details");
+        gr1.addQuery("did_number", doctorSysID);
+        gr1.addQuery("available_date", this.getParameter('sysparm_date'));
+        gr1.addQuery("booked", false);
+		gr1.orderBy('sys_created_on');
+        gr1.query();
+        while (gr1.next()) {
+            var flag = false;
+            var choice = gr1.time_slot;
+            for (var i = 0; i < data.length; i++) {
+                if (choice == data[i])
+                    flag = true;
+            }
+            if (!gs.nil(gr1.time_slot) && gr1.time_slot!= " ") { // && flag == false
+                data.push(gr1.time_slot.toString());
+            }
+        }
+        //gs.addInfoMessage(data.toString());
+        return data.toString();
+
+
+    },
+	
+    type: 'Case_Record_Ajax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-01 23:29:51</sys_created_on>
+        <sys_id>756cef45dbac1010447d2095ca96193a</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>Case_Record_Ajax</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_script_include_756cef45dbac1010447d2095ca96193a</sys_update_name>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 10:35:07</sys_updated_on>
+    </sys_script_include>
+</record_update>

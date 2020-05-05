@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Doctor Details" section_id="ddd5e341dbac1010447d2095ca961955" sys_domain="global" table="x_snc_hsm_pharmacy" version="3" view="Workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_did_number</element>
+            <position>0</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:59:06</sys_created_on>
+            <sys_id>6dd5e341dbac1010447d2095ca96197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Doctor Details" display_value="Doctor Details" name="x_snc_hsm_pharmacy" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">ddd5e341dbac1010447d2095ca961955</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:59:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:59:06</sys_created_on>
+            <sys_id>e1d5e341dbac1010447d2095ca96197d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Doctor Details" display_value="Doctor Details" name="x_snc_hsm_pharmacy" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">ddd5e341dbac1010447d2095ca961955</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:59:06</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Doctor Details</caption>
+            <header>false</header>
+            <name>x_snc_hsm_pharmacy</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:59:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ddd5e341dbac1010447d2095ca961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Doctor Details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+            <sys_update_name>sys_ui_section_ddd5e341dbac1010447d2095ca961955</sys_update_name>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:59:06</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">939aa3d8dbd300100f1eccfa139619a2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</application>
+        <file_path/>
+        <instance_id>cfb231404f00d600facf220f0310c748</instance_id>
+        <instance_name>hackathon090</instance_name>
+        <name>sys_ui_section_ddd5e341dbac1010447d2095ca961955</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Doctor Details" section_id="ddd5e341dbac1010447d2095ca961955" sys_domain="global" table="x_snc_hsm_pharmacy" version="3" view="Workspace"><sys_ui_element action="INSERT_OR_UPDATE"><element>u_did_number</element><position>0</position><sys_created_by>pruthvi</sys_created_by><sys_created_on>2020-05-01 22:59:06</sys_created_on><sys_id>6dd5e341dbac1010447d2095ca96197c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Doctor Details" display_value="Doctor Details" name="x_snc_hsm_pharmacy" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">ddd5e341dbac1010447d2095ca961955</sys_ui_section><sys_updated_by>pruthvi</sys_updated_by><sys_updated_on>2020-05-01 22:59:06</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>pruthvi</sys_created_by><sys_created_on>2020-05-01 22:59:06</sys_created_on><sys_id>e1d5e341dbac1010447d2095ca96197d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Doctor Details" display_value="Doctor Details" name="x_snc_hsm_pharmacy" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">ddd5e341dbac1010447d2095ca961955</sys_ui_section><sys_updated_by>pruthvi</sys_updated_by><sys_updated_on>2020-05-01 22:59:06</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Doctor Details</caption><header>false</header><name>x_snc_hsm_pharmacy</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>pruthvi</sys_created_by><sys_created_on>2020-05-01 22:59:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ddd5e341dbac1010447d2095ca961955</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Doctor Details</sys_name><sys_overrides/><sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package><sys_policy/><sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope><sys_update_name>sys_ui_section_ddd5e341dbac1010447d2095ca961955</sys_update_name><sys_updated_by>pruthvi</sys_updated_by><sys_updated_on>2020-05-01 22:59:06</sys_updated_on><sys_user/><title>false</title><view display_value="Workspace" name="workspace">939aa3d8dbd300100f1eccfa139619a2</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-625492425</payload_hash>
+        <record_name>Pharmacy</record_name>
+        <reverted_from/>
+        <source>28f9c38ddb2c1010447d2095ca9619ae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-01 22:59:06</sys_created_on>
+        <sys_id>6dd5e341dbac1010447d2095ca96197e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d27701700000001</sys_recorded_at>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-01 22:59:06</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>e5d5e34162ac10103a24dc383514cd7e</update_guid>
+        <update_guid_history>e5d5e34162ac10103a24dc383514cd7e:-625492425</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>chalanbl</sys_created_by>
+        <sys_created_on>2020-05-03 11:37:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>2de003ed032a406e9e9ad5c76c0f9544</sys_id>
+        <sys_metadata>ddd5e341dbac1010447d2095ca961955</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Doctor Details</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_parent display_value="Pharmacy">88c0238ddb6c1010447d2095ca96197d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_scope_delete display_value="">2296593c1ecc48008ab2077093804000</sys_scope_delete>
+        <sys_update_name>sys_ui_section_ddd5e341dbac1010447d2095ca961955</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_ddd5e341dbac1010447d2095ca961955">6dd5e341dbac1010447d2095ca96197e</sys_update_version>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-03 11:37:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

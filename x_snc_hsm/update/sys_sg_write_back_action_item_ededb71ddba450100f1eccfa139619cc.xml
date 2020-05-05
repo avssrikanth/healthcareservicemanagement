@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_write_back_action_item">
+    <sys_sg_write_back_action_item action="INSERT_OR_UPDATE">
+        <description/>
+        <execution_script/>
+        <name>claim insurance</name>
+        <query_condition/>
+        <sys_class_name>sys_sg_write_back_action_item</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 19:23:40</sys_created_on>
+        <sys_id>ededb71ddba450100f1eccfa139619cc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>claim insurance</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_sg_write_back_action_item_ededb71ddba450100f1eccfa139619cc</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 19:23:40</sys_updated_on>
+        <table>x_snc_hsm_case</table>
+        <template>u_state=insurance claim in progress^EQ</template>
+        <type>update</type>
+        <use_current_record_as_condition>true</use_current_record_as_condition>
+    </sys_sg_write_back_action_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=ededb71ddba450100f1eccfa139619cc"/>
+</record_update>

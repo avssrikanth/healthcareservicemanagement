@@ -1,0 +1,2046 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-orlando-12-11-2019__patch3-04-22-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>diagnostic_flow</internal_name>
+        <label_cache>[{"name":"faed36ba-ba78-4f44-9977-f5cbfb5eac96.Record.diagnostic_bill","label":"1➛Case Record➛Diagnostic Bill","reference":"","reference_display":"Diagnostic Bill","type":"currency","base_type":"currency","parent_table_name":"x_snc_hsm_case","column_name":"diagnostic_bill"},{"name":"Updated_1.current.u_currency_diagnosticbill","label":"Trigger➛HealthCare Diagnostic Record➛Diagnostic Bill","reference":"","reference_display":"Diagnostic Bill","type":"currency","base_type":"currency","parent_table_name":"x_snc_hsm_diagnostic","column_name":"u_currency_diagnosticbill"},{"name":"Updated_1.current","label":"Trigger➛HealthCare Diagnostic Record","reference":"x_snc_hsm_diagnostic","reference_display":"HealthCare Diagnostic","type":"reference","base_type":"reference","attributes":{}},{"name":"2ed659dc-46cb-4e46-a94d-b88b1de09baa.table_name","label":"2.1➛Case Table","reference":"x_snc_hsm_case","reference_display":"Case","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2ed659dc-46cb-4e46-a94d-b88b1de09baa.record","label":"2.1➛Case Record","reference":"x_snc_hsm_case","reference_display":"Case","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.u_statae","label":"Trigger➛HealthCare Diagnostic Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_snc_hsm_diagnostic","column_name":"u_statae"},{"name":"Updated_1.current.case_number.number","label":"Trigger➛HealthCare Diagnostic Record➛Case Number➛Case Number","reference":"","reference_display":"Case Number","type":"string","base_type":"string","parent_table_name":"x_snc_hsm_case","column_name":"number"},{"name":"faed36ba-ba78-4f44-9977-f5cbfb5eac96.Table","label":"1➛Case Table","reference":"x_snc_hsm_case","reference_display":"Case","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"faed36ba-ba78-4f44-9977-f5cbfb5eac96.Record","label":"1➛Case Record","reference":"x_snc_hsm_case","reference_display":"Case","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <latest_snapshot>ebeeab15db285010447d2095ca9619a6</latest_snapshot>
+        <master_snapshot>7d2c6091db605010447d2095ca961972</master_snapshot>
+        <name>Diagnostic Flow</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>922c6091db605010447d2095ca9619e6</remote_trigger_id>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 03:49:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7748689ddb205010447d2095ca9619ff</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Diagnostic Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_hub_flow_7748689ddb205010447d2095ca9619ff</sys_update_name>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:46</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=7748689ddb205010447d2095ca9619ff"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7748689ddb205010447d2095ca9619ff"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_snc_hsm_diagnostic">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>922c6091db605010447d2095ca9619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:21</sys_updated_on>
+        <table>x_snc_hsm_diagnostic</table>
+    </sys_flow_record_trigger>
+    <sys_hub_flow_component action="delete_multiple" query="flow=7748689ddb205010447d2095ca9619ff^sys_idNOT IN57bc2891db605010447d2095ca9619a6,66db6851db605010447d2095ca961966,7adb6851db605010447d2095ca96196b,fadb6851db605010447d2095ca96196e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Copy Attachment">30fe6cdb0f973300dfd3694e68767e5a</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>30fe6cdb0f973300dfd3694e68767e5a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Diagnostic Flow">7748689ddb205010447d2095ca9619ff</flow>
+        <order>2.2</order>
+        <parent_ui_id>39ea89bc-0b2a-4d7f-a454-9d96859c02b0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:08:52</sys_created_on>
+        <sys_id>57bc2891db605010447d2095ca9619a6</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:17:22</sys_updated_on>
+        <ui_id>118711c0-6630-4124-8779-2e9b188f209b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=57bc2891db605010447d2095ca9619a6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>57bc2891db605010447d2095ca9619a6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:08:52</sys_created_on>
+        <sys_id>5bbc2891db605010447d2095ca9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:08:52</sys_updated_on>
+        <value/>
+        <variable display_value="">b0fe6cdb0f973300dfd3694e68767e60</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>57bc2891db605010447d2095ca9619a6</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:08:52</sys_created_on>
+        <sys_id>97bc2891db605010447d2095ca9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:08:52</sys_updated_on>
+        <value>x_snc_hsm_case</value>
+        <variable display_value="">f4fe6cdb0f973300dfd3694e68767e67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=57bc2891db605010447d2095ca9619a6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_record</field>
+        <id>57bc2891db605010447d2095ca9619a6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:08:52</sys_created_on>
+        <sys_id>17bc2891db605010447d2095ca9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:08:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>57bc2891db605010447d2095ca9619a6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:08:52</sys_created_on>
+        <sys_id>9fbc2891db605010447d2095ca9619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:08:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_record</field>
+        <id>57bc2891db605010447d2095ca9619a6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:08:52</sys_created_on>
+        <sys_id>53bc2891db605010447d2095ca9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:08:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value>{{faed36ba-ba78-4f44-9977-f5cbfb5eac96.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Diagnostic Flow">7748689ddb205010447d2095ca9619ff</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:00</sys_created_on>
+        <sys_id>66db6851db605010447d2095ca961966</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:17:22</sys_updated_on>
+        <ui_id>faed36ba-ba78-4f44-9977-f5cbfb5eac96</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=66db6851db605010447d2095ca961966"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>66db6851db605010447d2095ca961966</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>26db6851db605010447d2095ca961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:01</sys_updated_on>
+        <value>x_snc_hsm_case</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=66db6851db605010447d2095ca961966"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>66db6851db605010447d2095ca961966</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>eadb6851db605010447d2095ca961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>number={{Updated_1.current.case_number.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>66db6851db605010447d2095ca961966</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>a2db6851db605010447d2095ca961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Diagnostic Flow">7748689ddb205010447d2095ca9619ff</flow>
+        <order>2.1</order>
+        <parent_ui_id>39ea89bc-0b2a-4d7f-a454-9d96859c02b0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>7adb6851db605010447d2095ca96196b</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:17:22</sys_updated_on>
+        <ui_id>2ed659dc-46cb-4e46-a94d-b88b1de09baa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7adb6851db605010447d2095ca96196b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7adb6851db605010447d2095ca96196b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>badb6851db605010447d2095ca96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:01</sys_updated_on>
+        <value>x_snc_hsm_case</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7adb6851db605010447d2095ca96196b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>f6db6851db605010447d2095ca96196d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:27</sys_updated_on>
+        <value>u_state=revisit_doctor^u_substate=received_diagnostics_results^diagnostic_bill=fd-scripted</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7adb6851db605010447d2095ca96196b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7adb6851db605010447d2095ca96196b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>b2db6851db605010447d2095ca96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{faed36ba-ba78-4f44-9977-f5cbfb5eac96.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7adb6851db605010447d2095ca96196b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>fedb6851db605010447d2095ca96196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7adb6851db605010447d2095ca96196b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>76db6851db605010447d2095ca96196d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">32db6851db605010447d2095ca96196e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Diagnostic Flow">7748689ddb205010447d2095ca9619ff</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>fadb6851db605010447d2095ca96196e</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:46</sys_updated_on>
+        <ui_id>39ea89bc-0b2a-4d7f-a454-9d96859c02b0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fadb6851db605010447d2095ca96196e"/>
+    <sys_element_mapping action="delete_multiple" query="id=fadb6851db605010447d2095ca96196e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>fadb6851db605010447d2095ca96196e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:02</sys_created_on>
+        <sys_id>8fdb6851db605010447d2095ca961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:02</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Updated_1.current.u_statae}}=completed</value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=7748689ddb205010447d2095ca9619ff^sys_idNOT INa2db6851db605010447d2095ca961961"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Diagnostic Flow">7748689ddb205010447d2095ca9619ff</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:00</sys_created_on>
+        <sys_id>a2db6851db605010447d2095ca961961</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:45</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a2db6851db605010447d2095ca961961"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a2db6851db605010447d2095ca961961</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:00</sys_created_on>
+        <sys_id>2edb6851db605010447d2095ca961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:00</sys_updated_on>
+        <value>x_snc_hsm_diagnostic</value>
+        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a2db6851db605010447d2095ca961961</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:00</sys_created_on>
+        <sys_id>62db6851db605010447d2095ca961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:00</sys_updated_on>
+        <value>every</value>
+        <variable display_value="">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a2db6851db605010447d2095ca961961</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:00</sys_created_on>
+        <sys_id>6adb6851db605010447d2095ca961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:00</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7748689ddb205010447d2095ca9619ff^sys_idNOT INbf48a89ddb205010447d2095ca9619d3"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7748689ddb205010447d2095ca9619ff</id>
+        <name>Diagnostic Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 03:49:31</sys_created_on>
+        <sys_id>bf48a89ddb205010447d2095ca9619d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 03:49:31</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=7748689ddb205010447d2095ca9619ff^sys_idNOT IN1edb6851db605010447d2095ca961953,9adb6851db605010447d2095ca961959,dadb2851db605010447d2095ca961954"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD3ecee71566285010007607ce3ae9df5c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Diagnostic Flow">7748689ddb205010447d2095ca9619ff</model>
+        <model_id>7748689ddb205010447d2095ca9619ff</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7748689ddb205010447d2095ca9619ff</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:59</sys_created_on>
+        <sys_id>1edb6851db605010447d2095ca961953</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Diagnostic Flow">7748689ddb205010447d2095ca9619ff</model>
+        <model_id>7748689ddb205010447d2095ca9619ff</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7748689ddb205010447d2095ca9619ff</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:59</sys_created_on>
+        <sys_id>9adb6851db605010447d2095ca961959</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Diagnostic Flow">7748689ddb205010447d2095ca9619ff</model>
+        <model_id>7748689ddb205010447d2095ca9619ff</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7748689ddb205010447d2095ca9619ff</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:59</sys_created_on>
+        <sys_id>dadb2851db605010447d2095ca961954</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:45</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=7748689ddb205010447d2095ca9619ff^sys_idNOT IN57bc2891db605010447d2095ca9619a6,66db6851db605010447d2095ca961966,7adb6851db605010447d2095ca96196b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Copy Attachment">30fe6cdb0f973300dfd3694e68767e5a</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>30fe6cdb0f973300dfd3694e68767e5a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Diagnostic Flow">7748689ddb205010447d2095ca9619ff</flow>
+        <order>2.2</order>
+        <parent_ui_id>39ea89bc-0b2a-4d7f-a454-9d96859c02b0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:08:52</sys_created_on>
+        <sys_id>57bc2891db605010447d2095ca9619a6</sys_id>
+        <sys_mod_count>32</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:17:22</sys_updated_on>
+        <ui_id>118711c0-6630-4124-8779-2e9b188f209b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=57bc2891db605010447d2095ca9619a6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>57bc2891db605010447d2095ca9619a6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:08:52</sys_created_on>
+        <sys_id>5bbc2891db605010447d2095ca9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:08:52</sys_updated_on>
+        <value/>
+        <variable display_value="">b0fe6cdb0f973300dfd3694e68767e60</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>57bc2891db605010447d2095ca9619a6</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:08:52</sys_created_on>
+        <sys_id>97bc2891db605010447d2095ca9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:08:52</sys_updated_on>
+        <value>x_snc_hsm_case</value>
+        <variable display_value="">f4fe6cdb0f973300dfd3694e68767e67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=57bc2891db605010447d2095ca9619a6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_record</field>
+        <id>57bc2891db605010447d2095ca9619a6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:08:52</sys_created_on>
+        <sys_id>17bc2891db605010447d2095ca9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:08:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>57bc2891db605010447d2095ca9619a6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:08:52</sys_created_on>
+        <sys_id>9fbc2891db605010447d2095ca9619a7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:08:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_record</field>
+        <id>57bc2891db605010447d2095ca9619a6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:08:52</sys_created_on>
+        <sys_id>53bc2891db605010447d2095ca9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:08:52</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value>{{faed36ba-ba78-4f44-9977-f5cbfb5eac96.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Diagnostic Flow">7748689ddb205010447d2095ca9619ff</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:00</sys_created_on>
+        <sys_id>66db6851db605010447d2095ca961966</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:17:22</sys_updated_on>
+        <ui_id>faed36ba-ba78-4f44-9977-f5cbfb5eac96</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=66db6851db605010447d2095ca961966"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>66db6851db605010447d2095ca961966</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>26db6851db605010447d2095ca961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:01</sys_updated_on>
+        <value>x_snc_hsm_case</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=66db6851db605010447d2095ca961966"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>66db6851db605010447d2095ca961966</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>eadb6851db605010447d2095ca961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>number={{Updated_1.current.case_number.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>66db6851db605010447d2095ca961966</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>a2db6851db605010447d2095ca961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Diagnostic Flow">7748689ddb205010447d2095ca9619ff</flow>
+        <order>2.1</order>
+        <parent_ui_id>39ea89bc-0b2a-4d7f-a454-9d96859c02b0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>7adb6851db605010447d2095ca96196b</sys_id>
+        <sys_mod_count>38</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:17:22</sys_updated_on>
+        <ui_id>2ed659dc-46cb-4e46-a94d-b88b1de09baa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7adb6851db605010447d2095ca96196b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7adb6851db605010447d2095ca96196b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>badb6851db605010447d2095ca96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:01</sys_updated_on>
+        <value>x_snc_hsm_case</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7adb6851db605010447d2095ca96196b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>f6db6851db605010447d2095ca96196d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:27</sys_updated_on>
+        <value>u_state=revisit_doctor^u_substate=received_diagnostics_results^diagnostic_bill=fd-scripted</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7adb6851db605010447d2095ca96196b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>7adb6851db605010447d2095ca96196b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>b2db6851db605010447d2095ca96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{faed36ba-ba78-4f44-9977-f5cbfb5eac96.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>7adb6851db605010447d2095ca96196b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>fedb6851db605010447d2095ca96196c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>7adb6851db605010447d2095ca96196b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>76db6851db605010447d2095ca96196d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:27</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7adb6851db605010447d2095ca96196b^sys_idNOT IN76be6715db285010447d2095ca9619b1"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>7adb6851db605010447d2095ca96196b</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"diagnostic_bill":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nreturn fd_data.trigger.current.getValue(\u0027u_currency_diagnosticbill\u0027);","savedValue":"0"}}</script>
+        <sys_created_by>chalanbl</sys_created_by>
+        <sys_created_on>2020-05-02 18:16:27</sys_created_on>
+        <sys_id>76be6715db285010447d2095ca9619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:27</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=7748689ddb205010447d2095ca9619ff^sys_idNOT INfadb6851db605010447d2095ca96196e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">32db6851db605010447d2095ca96196e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Diagnostic Flow">7748689ddb205010447d2095ca9619ff</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:01</sys_created_on>
+        <sys_id>fadb6851db605010447d2095ca96196e</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:46</sys_updated_on>
+        <ui_id>39ea89bc-0b2a-4d7f-a454-9d96859c02b0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fadb6851db605010447d2095ca96196e"/>
+    <sys_element_mapping action="delete_multiple" query="id=fadb6851db605010447d2095ca96196e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>fadb6851db605010447d2095ca96196e</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:02</sys_created_on>
+        <sys_id>8fdb6851db605010447d2095ca961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:02</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Updated_1.current.u_statae}}=completed</value>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_7748689ddb205010447d2095ca9619ff^sys_idNOT IN1edb6851db605010447d2095ca96195d,56db6851db605010447d2095ca961952,d2db6851db605010447d2095ca961958"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7748689ddb205010447d2095ca9619ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:05:00</sys_created_on>
+        <sys_id>1edb6851db605010447d2095ca96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:05:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7748689ddb205010447d2095ca9619ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:59</sys_created_on>
+        <sys_id>56db6851db605010447d2095ca961952</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:04:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7748689ddb205010447d2095ca9619ff</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:04:59</sys_created_on>
+        <sys_id>d2db6851db605010447d2095ca961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:04:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=7748689ddb205010447d2095ca9619ff^sys_idNOT IN1e2c6091db605010447d2095ca9619e6"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.Every</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"1e2c6091db605010447d2095ca9619e6","name":"plan"}}</plan>
+        <plan_id>7748689ddb205010447d2095ca9619ff</plan_id>
+        <snapshot>ebeeab15db285010447d2095ca9619a6</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1e2c6091db605010447d2095ca9619e6</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:45</sys_updated_on>
+        <trigger display_value="">922c6091db605010447d2095ca9619e6</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>diagnostic_flow</internal_name>
+        <label_cache>[{"name":"faed36ba-ba78-4f44-9977-f5cbfb5eac96.Record.diagnostic_bill","label":"1➛Case Record➛Diagnostic Bill","reference":"","reference_display":"Diagnostic Bill","type":"currency","base_type":"currency","parent_table_name":"x_snc_hsm_case","column_name":"diagnostic_bill"},{"name":"Updated_1.current.u_currency_diagnosticbill","label":"Trigger➛HealthCare Diagnostic Record➛Diagnostic Bill","reference":"","reference_display":"Diagnostic Bill","type":"currency","base_type":"currency","parent_table_name":"x_snc_hsm_diagnostic","column_name":"u_currency_diagnosticbill"},{"name":"Updated_1.current","label":"Trigger➛HealthCare Diagnostic Record","reference":"x_snc_hsm_diagnostic","reference_display":"HealthCare Diagnostic","type":"reference","base_type":"reference","attributes":{}},{"name":"2ed659dc-46cb-4e46-a94d-b88b1de09baa.table_name","label":"2.1➛Case Table","reference":"x_snc_hsm_case","reference_display":"Case","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2ed659dc-46cb-4e46-a94d-b88b1de09baa.record","label":"2.1➛Case Record","reference":"x_snc_hsm_case","reference_display":"Case","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.u_statae","label":"Trigger➛HealthCare Diagnostic Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_snc_hsm_diagnostic","column_name":"u_statae"},{"name":"Updated_1.current.case_number.number","label":"Trigger➛HealthCare Diagnostic Record➛Case Number➛Case Number","reference":"","reference_display":"Case Number","type":"string","base_type":"string","parent_table_name":"x_snc_hsm_case","column_name":"number"},{"name":"faed36ba-ba78-4f44-9977-f5cbfb5eac96.Table","label":"1➛Case Table","reference":"x_snc_hsm_case","reference_display":"Case","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"faed36ba-ba78-4f44-9977-f5cbfb5eac96.Record","label":"1➛Case Record","reference":"x_snc_hsm_case","reference_display":"Case","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Diagnostic Flow</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Diagnostic Flow">7748689ddb205010447d2095ca9619ff</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7d2c6091db605010447d2095ca961972</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:44</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=7d2c6091db605010447d2095ca961972"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7d2c6091db605010447d2095ca961972"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=7d2c6091db605010447d2095ca961972^sys_idNOT IN022c6091db605010447d2095ca9619c9,16cca891db605010447d2095ca96195c,422c6091db605010447d2095ca9619ce,8e2c6091db605010447d2095ca9619a9"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Diagnostic Flow">7d2c6091db605010447d2095ca961972</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>022c6091db605010447d2095ca9619c9</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:44</sys_updated_on>
+        <ui_id>faed36ba-ba78-4f44-9977-f5cbfb5eac96</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=022c6091db605010447d2095ca9619c9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>022c6091db605010447d2095ca9619c9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>8e2c6091db605010447d2095ca9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <value>x_snc_hsm_case</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=022c6091db605010447d2095ca9619c9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>022c6091db605010447d2095ca9619c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>4a2c6091db605010447d2095ca9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>number={{Updated_1.current.case_number.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>022c6091db605010447d2095ca9619c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>0e2c6091db605010447d2095ca9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Copy Attachment">30fe6cdb0f973300dfd3694e68767e5a</action_type>
+        <action_type_parent display_value="Copy Attachment">95849c2a9353130079b5925cf67ffb91</action_type_parent>
+        <comment/>
+        <compiled_snapshot>30fe6cdb0f973300dfd3694e68767e5a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Diagnostic Flow">7d2c6091db605010447d2095ca961972</flow>
+        <order>2.2</order>
+        <parent_ui_id>39ea89bc-0b2a-4d7f-a454-9d96859c02b0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:09:05</sys_created_on>
+        <sys_id>16cca891db605010447d2095ca96195c</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:44</sys_updated_on>
+        <ui_id>118711c0-6630-4124-8779-2e9b188f209b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=16cca891db605010447d2095ca96195c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>16cca891db605010447d2095ca96195c</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:09:05</sys_created_on>
+        <sys_id>12cca891db605010447d2095ca96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:09:05</sys_updated_on>
+        <value/>
+        <variable display_value="">b0fe6cdb0f973300dfd3694e68767e60</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>16cca891db605010447d2095ca96195c</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:09:05</sys_created_on>
+        <sys_id>5ecca891db605010447d2095ca96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:09:05</sys_updated_on>
+        <value>x_snc_hsm_case</value>
+        <variable display_value="">f4fe6cdb0f973300dfd3694e68767e67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=16cca891db605010447d2095ca96195c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_record</field>
+        <id>16cca891db605010447d2095ca96195c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:09:05</sys_created_on>
+        <sys_id>dacca891db605010447d2095ca96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:09:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>16cca891db605010447d2095ca96195c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:09:05</sys_created_on>
+        <sys_id>56cca891db605010447d2095ca96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:09:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_record</field>
+        <id>16cca891db605010447d2095ca96195c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:09:05</sys_created_on>
+        <sys_id>1acca891db605010447d2095ca96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:09:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value>{{faed36ba-ba78-4f44-9977-f5cbfb5eac96.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Diagnostic Flow">7d2c6091db605010447d2095ca961972</flow>
+        <order>2.1</order>
+        <parent_ui_id>39ea89bc-0b2a-4d7f-a454-9d96859c02b0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>422c6091db605010447d2095ca9619ce</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:44</sys_updated_on>
+        <ui_id>2ed659dc-46cb-4e46-a94d-b88b1de09baa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=422c6091db605010447d2095ca9619ce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>422c6091db605010447d2095ca9619ce</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>4e2c6091db605010447d2095ca9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <value>x_snc_hsm_case</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>422c6091db605010447d2095ca9619ce</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>8a2c6091db605010447d2095ca9619cf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:43</sys_updated_on>
+        <value>u_state=revisit_doctor^u_substate=received_diagnostics_results^diagnostic_bill=fd-scripted</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=422c6091db605010447d2095ca9619ce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>422c6091db605010447d2095ca9619ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>462c6091db605010447d2095ca9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{faed36ba-ba78-4f44-9977-f5cbfb5eac96.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>422c6091db605010447d2095ca9619ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>822c6091db605010447d2095ca9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>422c6091db605010447d2095ca9619ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>0a2c6091db605010447d2095ca9619cf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">32db6851db605010447d2095ca96196e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Diagnostic Flow">7d2c6091db605010447d2095ca961972</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>8e2c6091db605010447d2095ca9619a9</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:44</sys_updated_on>
+        <ui_id>39ea89bc-0b2a-4d7f-a454-9d96859c02b0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8e2c6091db605010447d2095ca9619a9"/>
+    <sys_element_mapping action="delete_multiple" query="id=8e2c6091db605010447d2095ca9619a9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>8e2c6091db605010447d2095ca9619a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>ca2c6091db605010447d2095ca9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Updated_1.current.u_statae}}=completed</value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=7d2c6091db605010447d2095ca961972^sys_idNOT IN422c6091db605010447d2095ca9619d0"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Diagnostic Flow">7d2c6091db605010447d2095ca961972</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>422c6091db605010447d2095ca9619d0</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:45</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=422c6091db605010447d2095ca9619d0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>422c6091db605010447d2095ca9619d0</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>0a2c6091db605010447d2095ca9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <value>every</value>
+        <variable display_value="">c19523d8c31932002841b63b12d3aea1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>422c6091db605010447d2095ca9619d0</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>8e2c6091db605010447d2095ca9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <value>x_snc_hsm_diagnostic</value>
+        <variable display_value="">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>422c6091db605010447d2095ca9619d0</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>ca2c6091db605010447d2095ca9619d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7d2c6091db605010447d2095ca961972^sys_idNOT IN392c6091db605010447d2095ca961973"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7d2c6091db605010447d2095ca961972</id>
+        <name>Diagnostic Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:19</sys_created_on>
+        <sys_id>392c6091db605010447d2095ca961973</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:19</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=7d2c6091db605010447d2095ca961972^sys_idNOT IN392c6091db605010447d2095ca961976,b92c6091db605010447d2095ca96199d,f52c6091db605010447d2095ca961994"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Diagnostic Flow">7d2c6091db605010447d2095ca961972</model>
+        <model_id>7d2c6091db605010447d2095ca961972</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_7d2c6091db605010447d2095ca961972</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:19</sys_created_on>
+        <sys_id>392c6091db605010447d2095ca961976</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Diagnostic Flow">7d2c6091db605010447d2095ca961972</model>
+        <model_id>7d2c6091db605010447d2095ca961972</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_7d2c6091db605010447d2095ca961972</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:19</sys_created_on>
+        <sys_id>b92c6091db605010447d2095ca96199d</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FD3ecee71566285010007607ce3ae9df5c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Diagnostic Flow">7d2c6091db605010447d2095ca961972</model>
+        <model_id>7d2c6091db605010447d2095ca961972</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_7d2c6091db605010447d2095ca961972</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:19</sys_created_on>
+        <sys_id>f52c6091db605010447d2095ca961994</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=7d2c6091db605010447d2095ca961972^sys_idNOT IN022c6091db605010447d2095ca9619c9,16cca891db605010447d2095ca96195c,422c6091db605010447d2095ca9619ce"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <comment/>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Diagnostic Flow">7d2c6091db605010447d2095ca961972</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>022c6091db605010447d2095ca9619c9</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:44</sys_updated_on>
+        <ui_id>faed36ba-ba78-4f44-9977-f5cbfb5eac96</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=022c6091db605010447d2095ca9619c9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>022c6091db605010447d2095ca9619c9</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>8e2c6091db605010447d2095ca9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <value>x_snc_hsm_case</value>
+        <variable display_value="">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=022c6091db605010447d2095ca9619c9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>022c6091db605010447d2095ca9619c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>4a2c6091db605010447d2095ca9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>number={{Updated_1.current.case_number.number}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>022c6091db605010447d2095ca9619c9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>0e2c6091db605010447d2095ca9619ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Copy Attachment">30fe6cdb0f973300dfd3694e68767e5a</action_type>
+        <action_type_parent display_value="Copy Attachment">95849c2a9353130079b5925cf67ffb91</action_type_parent>
+        <comment/>
+        <compiled_snapshot>30fe6cdb0f973300dfd3694e68767e5a</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Diagnostic Flow">7d2c6091db605010447d2095ca961972</flow>
+        <order>2.2</order>
+        <parent_ui_id>39ea89bc-0b2a-4d7f-a454-9d96859c02b0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:09:05</sys_created_on>
+        <sys_id>16cca891db605010447d2095ca96195c</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:44</sys_updated_on>
+        <ui_id>118711c0-6630-4124-8779-2e9b188f209b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=16cca891db605010447d2095ca96195c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>16cca891db605010447d2095ca96195c</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:09:05</sys_created_on>
+        <sys_id>12cca891db605010447d2095ca96195e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:09:05</sys_updated_on>
+        <value/>
+        <variable display_value="">b0fe6cdb0f973300dfd3694e68767e60</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>16cca891db605010447d2095ca96195c</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:09:05</sys_created_on>
+        <sys_id>5ecca891db605010447d2095ca96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:09:05</sys_updated_on>
+        <value>x_snc_hsm_case</value>
+        <variable display_value="">f4fe6cdb0f973300dfd3694e68767e67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=16cca891db605010447d2095ca96195c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>attachment_record</field>
+        <id>16cca891db605010447d2095ca96195c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:09:05</sys_created_on>
+        <sys_id>dacca891db605010447d2095ca96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:09:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>16cca891db605010447d2095ca96195c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:09:05</sys_created_on>
+        <sys_id>56cca891db605010447d2095ca96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:09:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>target_record</field>
+        <id>16cca891db605010447d2095ca96195c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:09:05</sys_created_on>
+        <sys_id>1acca891db605010447d2095ca96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:09:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_30fe6cdb0f973300dfd3694e68767e5a</table>
+        <value>{{faed36ba-ba78-4f44-9977-f5cbfb5eac96.Record}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <compiled_snapshot>f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Diagnostic Flow">7d2c6091db605010447d2095ca961972</flow>
+        <order>2.1</order>
+        <parent_ui_id>39ea89bc-0b2a-4d7f-a454-9d96859c02b0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>422c6091db605010447d2095ca9619ce</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:44</sys_updated_on>
+        <ui_id>2ed659dc-46cb-4e46-a94d-b88b1de09baa</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=422c6091db605010447d2095ca9619ce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>422c6091db605010447d2095ca9619ce</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>4e2c6091db605010447d2095ca9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <value>x_snc_hsm_case</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>422c6091db605010447d2095ca9619ce</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>8a2c6091db605010447d2095ca9619cf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:43</sys_updated_on>
+        <value>u_state=revisit_doctor^u_substate=received_diagnostics_results^diagnostic_bill=fd-scripted</value>
+        <variable display_value="">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=422c6091db605010447d2095ca9619ce"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>422c6091db605010447d2095ca9619ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>462c6091db605010447d2095ca9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{faed36ba-ba78-4f44-9977-f5cbfb5eac96.Record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>422c6091db605010447d2095ca9619ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>822c6091db605010447d2095ca9619cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>422c6091db605010447d2095ca9619ce</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>0a2c6091db605010447d2095ca9619cf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:43</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=422c6091db605010447d2095ca9619ce^sys_idNOT IN72cee715db285010447d2095ca961955"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>values</input_name>
+        <instance>422c6091db605010447d2095ca9619ce</instance>
+        <referenced_table>sys_hub_action_instance</referenced_table>
+        <script>{"diagnostic_bill":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value.\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n*/\n\nreturn fd_data.trigger.current.getValue(\u0027u_currency_diagnosticbill\u0027);","savedValue":"0"}}</script>
+        <sys_created_by>chalanbl</sys_created_by>
+        <sys_created_on>2020-05-02 18:16:43</sys_created_on>
+        <sys_id>72cee715db285010447d2095ca961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:43</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=7d2c6091db605010447d2095ca961972^sys_idNOT IN8e2c6091db605010447d2095ca9619a9"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">32db6851db605010447d2095ca96196e</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Diagnostic Flow">7d2c6091db605010447d2095ca961972</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>8e2c6091db605010447d2095ca9619a9</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 18:16:44</sys_updated_on>
+        <ui_id>39ea89bc-0b2a-4d7f-a454-9d96859c02b0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=8e2c6091db605010447d2095ca9619a9"/>
+    <sys_element_mapping action="delete_multiple" query="id=8e2c6091db605010447d2095ca9619a9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>8e2c6091db605010447d2095ca9619a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>ca2c6091db605010447d2095ca9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Updated_1.current.u_statae}}=completed</value>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_7d2c6091db605010447d2095ca961972^sys_idNOT IN392c6091db605010447d2095ca9619a2,792c6091db605010447d2095ca961999,fd2c6091db605010447d2095ca961987"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7d2c6091db605010447d2095ca961972</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:20</sys_created_on>
+        <sys_id>392c6091db605010447d2095ca9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:20</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7d2c6091db605010447d2095ca961972</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:19</sys_created_on>
+        <sys_id>792c6091db605010447d2095ca961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7d2c6091db605010447d2095ca961972</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 04:06:19</sys_created_on>
+        <sys_id>fd2c6091db605010447d2095ca961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 04:06:19</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

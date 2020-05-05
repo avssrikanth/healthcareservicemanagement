@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="94c16f8ddb6c1010447d2095ca9619ba" sys_domain="global" table="x_snc_hsm_timeslot_details" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>did_number</element>
+            <position>0</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:41:16</sys_created_on>
+            <sys_id>18c16f8ddb6c1010447d2095ca9619bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_timeslot_details" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">94c16f8ddb6c1010447d2095ca9619ba</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:41:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>available_date</element>
+            <position>1</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:41:16</sys_created_on>
+            <sys_id>9cc16f8ddb6c1010447d2095ca9619bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_timeslot_details" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">94c16f8ddb6c1010447d2095ca9619ba</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:41:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:41:16</sys_created_on>
+            <sys_id>14c16f8ddb6c1010447d2095ca9619be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_timeslot_details" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">94c16f8ddb6c1010447d2095ca9619ba</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:41:16</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>time_slot</element>
+            <position>3</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:41:16</sys_created_on>
+            <sys_id>98c16f8ddb6c1010447d2095ca9619be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_timeslot_details" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">94c16f8ddb6c1010447d2095ca9619ba</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:41:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>booked</element>
+            <position>4</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:41:16</sys_created_on>
+            <sys_id>10c16f8ddb6c1010447d2095ca9619bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_timeslot_details" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">94c16f8ddb6c1010447d2095ca9619ba</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:41:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_hsm_timeslot_details</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:41:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>94c16f8ddb6c1010447d2095ca9619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_hsm_timeslot_details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+            <sys_update_name>sys_ui_section_94c16f8ddb6c1010447d2095ca9619ba</sys_update_name>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:41:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">939aa3d8dbd300100f1eccfa139619a2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

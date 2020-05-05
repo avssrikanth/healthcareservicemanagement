@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="insurance_claimed_amount" label="Insurance Claimed Amount" language="en" table="x_snc_hsm_case">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>insurance_claimed_amount</element>
+            <help/>
+            <hint/>
+            <label>Insurance Claimed Amount</label>
+            <language>en</language>
+            <name>x_snc_hsm_case</name>
+            <plural>Insurance Claimed Amounts</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>chalanbl</sys_created_by>
+            <sys_created_on>2020-05-02 12:48:15</sys_created_on>
+            <sys_id>1793aa95db645010447d2095ca961930</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Insurance Claimed Amount</sys_name>
+            <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_hsm_case_insurance_claimed_amount_en</sys_update_name>
+            <sys_updated_by>chalanbl</sys_updated_by>
+            <sys_updated_on>2020-05-02 12:48:15</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

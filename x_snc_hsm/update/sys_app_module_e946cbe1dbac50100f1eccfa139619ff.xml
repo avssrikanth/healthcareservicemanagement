@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Workspace Experience">81a6ba9b530233004cb4ddeeff7b1258</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Pharmacist ➚</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>101</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>now/workspace/pharmacist</query>
+        <report/>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-03 09:58:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e946cbe1dbac50100f1eccfa139619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Pharmacist ➚</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_app_module_e946cbe1dbac50100f1eccfa139619ff</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-03 09:58:10</sys_updated_on>
+        <timeline_page/>
+        <title>Pharmacist ➚</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name>Pharmacist</window_name>
+    </sys_app_module>
+</record_update>

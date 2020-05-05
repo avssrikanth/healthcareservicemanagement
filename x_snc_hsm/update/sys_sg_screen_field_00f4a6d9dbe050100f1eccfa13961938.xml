@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="INSERT_OR_UPDATE">
+        <data_item_field_name>medicine_prescription</data_item_field_name>
+        <description_text/>
+        <description_text_field/>
+        <description_text_type/>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>50</order>
+        <record_id_field/>
+        <screen display_value="Details">8cf4a6d9dbe050100f1eccfa1396192d</screen>
+        <screen_data_item_table>x_snc_hsm_pharmacy</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 12:54:02</sys_created_on>
+        <sys_id>00f4a6d9dbe050100f1eccfa13961938</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>medicine_prescription</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_sg_screen_field_00f4a6d9dbe050100f1eccfa13961938</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 12:54:02</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+    <sys_translated_text action="delete_multiple" query="documentkey=00f4a6d9dbe050100f1eccfa13961938"/>
+</record_update>

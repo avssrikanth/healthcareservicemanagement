@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Patient Details" section_id="0da56341dbac1010447d2095ca9619d2" sys_domain="global" table="x_snc_hsm_case" version="3" view="workspace">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 23:33:11</sys_created_on>
+            <sys_id>70ad2f85dbac1010447d2095ca961997</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-01 23:33:11</sys_updated_on>
+            <text>Click on "i" icon in "Patient History" field to know the history of the patient</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>70ad2f85dbac1010447d2095ca961997</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 23:33:12</sys_created_on>
+            <sys_id>85ad2f85dbac1010447d2095ca96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Patient Details" display_value="Patient Details" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">0da56341dbac1010447d2095ca9619d2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-01 23:33:12</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_patient_history</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 23:33:12</sys_created_on>
+            <sys_id>0dad2f85dbac1010447d2095ca96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Patient Details" display_value="Patient Details" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">0da56341dbac1010447d2095ca9619d2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-01 23:33:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 23:33:12</sys_created_on>
+            <sys_id>81ad2f85dbac1010447d2095ca96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Patient Details" display_value="Patient Details" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">0da56341dbac1010447d2095ca9619d2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-01 23:33:12</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_patient_history.u_age</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 23:33:12</sys_created_on>
+            <sys_id>09ad2f85dbac1010447d2095ca96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Patient Details" display_value="Patient Details" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">0da56341dbac1010447d2095ca9619d2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-01 23:33:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_patient_history.u_gender</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 23:33:12</sys_created_on>
+            <sys_id>8dad2f85dbac1010447d2095ca96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Patient Details" display_value="Patient Details" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">0da56341dbac1010447d2095ca9619d2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-01 23:33:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 23:33:12</sys_created_on>
+            <sys_id>0dad6f85dbac1010447d2095ca961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Patient Details" display_value="Patient Details" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">0da56341dbac1010447d2095ca9619d2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-01 23:33:12</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_patient_history.u_email</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 23:33:12</sys_created_on>
+            <sys_id>81ad6f85dbac1010447d2095ca961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Patient Details" display_value="Patient Details" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">0da56341dbac1010447d2095ca9619d2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-01 23:33:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_patient_history.u_phone_number</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 23:33:12</sys_created_on>
+            <sys_id>09ad6f85dbac1010447d2095ca961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Patient Details" display_value="Patient Details" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">0da56341dbac1010447d2095ca9619d2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-01 23:33:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 23:33:12</sys_created_on>
+            <sys_id>8dad6f85dbac1010447d2095ca961904</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Patient Details" display_value="Patient Details" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">0da56341dbac1010447d2095ca9619d2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-01 23:33:12</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Patient Details</caption>
+            <header>false</header>
+            <name>x_snc_hsm_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 22:58:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0da56341dbac1010447d2095ca9619d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Patient Details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+            <sys_update_name>sys_ui_section_0da56341dbac1010447d2095ca9619d2</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:58:14</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">939aa3d8dbd300100f1eccfa139619a2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

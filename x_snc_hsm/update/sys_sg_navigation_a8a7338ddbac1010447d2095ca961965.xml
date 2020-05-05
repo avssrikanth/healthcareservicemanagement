@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_navigation">
+    <sys_sg_navigation action="INSERT_OR_UPDATE">
+        <color>#5fadf5</color>
+        <legacy_application>false</legacy_application>
+        <name>HealthCare Service Mangement</name>
+        <quick_actions_menu_color/>
+        <sys_class_name>sys_sg_navigation</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 00:17:03</sys_created_on>
+        <sys_id>a8a7338ddbac1010447d2095ca961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HealthCare Service Mangement</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_sg_navigation_a8a7338ddbac1010447d2095ca961965</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 00:17:03</sys_updated_on>
+    </sys_sg_navigation>
+</record_update>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="0da5af01dbac1010447d2095ca961938" sys_domain="global" table="x_snc_hsm_case" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 22:58:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9a5af01dbac1010447d2095ca961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hsm_case" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">0da5af01dbac1010447d2095ca961938</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">48e3efcddb6c1010447d2095ca9619e9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:58:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 22:58:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41a56341dbac1010447d2095ca9619d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hsm_case" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">0da5af01dbac1010447d2095ca961938</sys_ui_form>
+            <sys_ui_section caption="Patient Details" display_value="Patient Details" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">0da56341dbac1010447d2095ca9619d2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:58:14</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-02 00:52:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ecff7c1dbec1010447d2095ca96198d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hsm_case" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">0da5af01dbac1010447d2095ca961938</sys_ui_form>
+            <sys_ui_section caption="Doctor Notepad" display_value="Doctor Notepad" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">aacff7c1dbec1010447d2095ca96198a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:53:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 23:06:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24a7e781dbac1010447d2095ca9619dc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hsm_case" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">0da5af01dbac1010447d2095ca961938</sys_ui_form>
+            <sys_ui_section caption="Patient Diagnostics Details" display_value="Patient Diagnostics Details" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">aca7e781dbac1010447d2095ca9619d9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:53:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 23:07:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>28b76b81dbac1010447d2095ca96194a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hsm_case" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">0da5af01dbac1010447d2095ca961938</sys_ui_form>
+            <sys_ui_section caption="Patient Pharmacy Details" display_value="Patient Pharmacy Details" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">28b76781dbac1010447d2095ca961901</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:53:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 23:09:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8f186f81dbac1010447d2095ca961947</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hsm_case" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">0da5af01dbac1010447d2095ca961938</sys_ui_form>
+            <sys_ui_section caption="Case Notes" display_value="Case Notes" name="x_snc_hsm_case" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">4b18eb81dbac1010447d2095ca9619dc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-02 00:53:40</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_hsm_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 22:58:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0da5af01dbac1010447d2095ca961938</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_hsm_case</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_0da5af01dbac1010447d2095ca961938</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:58:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace" name="workspace">939aa3d8dbd300100f1eccfa139619a2</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

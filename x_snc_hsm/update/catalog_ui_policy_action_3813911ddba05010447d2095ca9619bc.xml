@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Dentist">413ff45ddb605010447d2095ca961916</catalog_item>
+        <catalog_variable>IO:3a10d959dba05010447d2095ca961942</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-02 06:56:28</sys_created_on>
+        <sys_id>3813911ddba05010447d2095ca9619bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>category</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_3813911ddba05010447d2095ca9619bc</sys_update_name>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-02 06:56:28</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Category hide">d3f2511ddba05010447d2095ca961907</ui_policy>
+        <variable>category</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

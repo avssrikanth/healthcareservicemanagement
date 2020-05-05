@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="workspace_user" name="workspace_user">3bf8d5b65344130084acddeeff7b122b</contains>
+        <role display_value="doctor" name="doctor">b0ea4555dba05010447d2095ca961957</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 06:20:37</sys_created_on>
+        <sys_id>41ea4555dba05010447d2095ca961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>workspace_user.doctor</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_user_role_contains_41ea4555dba05010447d2095ca961960</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 06:20:37</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

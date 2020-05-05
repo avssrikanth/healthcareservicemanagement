@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="DELETE">
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <fetch_type>on_demand</fetch_type>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Link1">ea4236a5db6c50100f1eccfa13961922</icon>
+        <name>My Medicines</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-03 08:30:51</sys_created_on>
+        <sys_id>6e4236a5db6c50100f1eccfa139619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Medicines</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_sg_list_screen_6e4236a5db6c50100f1eccfa139619fa</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:30:51</sys_updated_on>
+    </sys_sg_list_screen>
+    <sys_translated_text action="DELETE" query="documentkey=6e4236a5db6c50100f1eccfa139619fa"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</application>
+        <file_path/>
+        <instance_id>cfb231404f00d600facf220f0310c748</instance_id>
+        <instance_name>hackathon090</instance_name>
+        <name>sys_sg_list_screen_6e4236a5db6c50100f1eccfa139619fa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen"><sys_sg_list_screen action="INSERT_OR_UPDATE"><available_offline>false</available_offline><description/><dynamic_prefetch_count/><fetch_type>on_demand</fetch_type><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon display_value="icon-Link1">ea4236a5db6c50100f1eccfa13961922</icon><name>My Medicines</name><roles_override/><sys_class_name>sys_sg_list_screen</sys_class_name><sys_created_by>avssrikanth99</sys_created_by><sys_created_on>2020-05-03 08:30:51</sys_created_on><sys_id>6e4236a5db6c50100f1eccfa139619fa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Medicines</sys_name><sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package><sys_policy/><sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope><sys_update_name>sys_sg_list_screen_6e4236a5db6c50100f1eccfa139619fa</sys_update_name><sys_updated_by>avssrikanth99</sys_updated_by><sys_updated_on>2020-05-03 08:30:51</sys_updated_on></sys_sg_list_screen><sys_translated_text action="delete_multiple" query="documentkey=6e4236a5db6c50100f1eccfa139619fa"/></record_update>]]></payload>
+        <payload_hash>1634746734</payload_hash>
+        <record_name>My Medicines</record_name>
+        <reverted_from/>
+        <source>28f9c38ddb2c1010447d2095ca9619ae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-03 08:30:51</sys_created_on>
+        <sys_id>6e4236a5db6c50100f1eccfa139619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d9a8d2200000001</sys_recorded_at>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:30:51</sys_updated_on>
+        <type>List screen</type>
+        <update_guid>a64236a5756c5010c1d8256a586d79fc</update_guid>
+        <update_guid_history>a64236a5756c5010c1d8256a586d79fc:1634746734</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-03 08:33:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_list_screen">sys_sg_list_screen</sys_db_object>
+        <sys_id>7c40879bfdb44eb49280c875b0d71210</sys_id>
+        <sys_metadata>6e4236a5db6c50100f1eccfa139619fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Medicines</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_scope_delete display_value="">2296593c1ecc48008ab2077093804000</sys_scope_delete>
+        <sys_update_name>sys_sg_list_screen_6e4236a5db6c50100f1eccfa139619fa</sys_update_name>
+        <sys_update_version display_value="sys_sg_list_screen_6e4236a5db6c50100f1eccfa139619fa">6e4236a5db6c50100f1eccfa139619fc</sys_update_version>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:33:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

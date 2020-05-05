@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_hsm_case" version="2" view="RPTcc9b4cb9db2090100f1eccfa139619cf">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_snc_hsm_case" element="NULL" name="x_snc_hsm_case" parent="NULL" relationship="NULL" sys_domain="global" view="809bccb9db2090100f1eccfa1396192b">44fe483ddb2090100f1eccfa13961911</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-03 15:15:38</sys_created_on>
+            <sys_id>00fe483ddb2090100f1eccfa13961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-03 15:15:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_patient_name</element>
+            <list_id display_value="x_snc_hsm_case" element="NULL" name="x_snc_hsm_case" parent="NULL" relationship="NULL" sys_domain="global" view="809bccb9db2090100f1eccfa1396192b">44fe483ddb2090100f1eccfa13961911</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-03 15:15:38</sys_created_on>
+            <sys_id>04fe483ddb2090100f1eccfa13961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-03 15:15:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_date_of_appointment</element>
+            <list_id display_value="x_snc_hsm_case" element="NULL" name="x_snc_hsm_case" parent="NULL" relationship="NULL" sys_domain="global" view="809bccb9db2090100f1eccfa1396192b">44fe483ddb2090100f1eccfa13961911</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-03 15:15:38</sys_created_on>
+            <sys_id>08fe483ddb2090100f1eccfa13961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-03 15:15:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_issue_description</element>
+            <list_id display_value="x_snc_hsm_case" element="NULL" name="x_snc_hsm_case" parent="NULL" relationship="NULL" sys_domain="global" view="809bccb9db2090100f1eccfa1396192b">44fe483ddb2090100f1eccfa13961911</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-03 15:15:38</sys_created_on>
+            <sys_id>0cfe483ddb2090100f1eccfa13961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-03 15:15:38</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_hsm_case</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-03 15:15:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44fe483ddb2090100f1eccfa13961911</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_hsm_case</sys_name>
+            <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_hsm_case_RPTcc9b4cb9db2090100f1eccfa139619cf</sys_update_name>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-03 15:15:38</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rptcc9b4cb9db2090100f1eccfa139619cf" name="RPTcc9b4cb9db2090100f1eccfa139619cf">809bccb9db2090100f1eccfa1396192b</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

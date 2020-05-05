@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="DELETE">
+        <data_item_field_name>night_dosage</data_item_field_name>
+        <description_text/>
+        <description_text_field/>
+        <description_text_type/>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>100</order>
+        <record_id_field/>
+        <screen display_value="Details">9a157a29db6c50100f1eccfa13961991</screen>
+        <screen_data_item_table>x_snc_hsm_medicine</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-03 08:54:42</sys_created_on>
+        <sys_id>77b736a9db6c50100f1eccfa13961978</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>night_dosage</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_sg_screen_field_77b736a9db6c50100f1eccfa13961978</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:54:42</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+    <sys_translated_text action="DELETE" query="documentkey=77b736a9db6c50100f1eccfa13961978"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</application>
+        <file_path/>
+        <instance_id>cfb231404f00d600facf220f0310c748</instance_id>
+        <instance_name>hackathon090</instance_name>
+        <name>sys_sg_screen_field_77b736a9db6c50100f1eccfa13961978</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field"><sys_sg_screen_field action="INSERT_OR_UPDATE"><data_item_field_name>night_dosage</data_item_field_name><description_text/><description_text_field/><description_text_type/><field_name/><hidden>false</hidden><order>100</order><record_id_field/><screen display_value="Details">9a157a29db6c50100f1eccfa13961991</screen><screen_data_item_table>x_snc_hsm_medicine</screen_data_item_table><sys_class_name>sys_sg_screen_field</sys_class_name><sys_created_by>avssrikanth99</sys_created_by><sys_created_on>2020-05-03 08:54:42</sys_created_on><sys_id>77b736a9db6c50100f1eccfa13961978</sys_id><sys_mod_count>0</sys_mod_count><sys_name>night_dosage</sys_name><sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package><sys_policy/><sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope><sys_update_name>sys_sg_screen_field_77b736a9db6c50100f1eccfa13961978</sys_update_name><sys_updated_by>avssrikanth99</sys_updated_by><sys_updated_on>2020-05-03 08:54:42</sys_updated_on><type>auto</type><value_only>false</value_only></sys_sg_screen_field><sys_translated_text action="delete_multiple" query="documentkey=77b736a9db6c50100f1eccfa13961978"/></record_update>]]></payload>
+        <payload_hash>-1055691442</payload_hash>
+        <record_name>night_dosage</record_name>
+        <reverted_from/>
+        <source>28f9c38ddb2c1010447d2095ca9619ae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-03 08:54:42</sys_created_on>
+        <sys_id>73b736a9db6c50100f1eccfa1396197a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d9bea5c40000001</sys_recorded_at>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:54:42</sys_updated_on>
+        <type>Screen fields</type>
+        <update_guid>bbb736a9336c5010aad5a91196294179</update_guid>
+        <update_guid_history>bbb736a9336c5010aad5a91196294179:-1055691442</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-03 09:16:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_screen_field">sys_sg_screen_field</sys_db_object>
+        <sys_id>38c9708abf8047809ec92ce4dda95071</sys_id>
+        <sys_metadata>77b736a9db6c50100f1eccfa13961978</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>night_dosage</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_scope_delete display_value="">2296593c1ecc48008ab2077093804000</sys_scope_delete>
+        <sys_update_name>sys_sg_screen_field_77b736a9db6c50100f1eccfa13961978</sys_update_name>
+        <sys_update_version display_value="sys_sg_screen_field_77b736a9db6c50100f1eccfa13961978">73b736a9db6c50100f1eccfa1396197a</sys_update_version>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-03 09:16:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

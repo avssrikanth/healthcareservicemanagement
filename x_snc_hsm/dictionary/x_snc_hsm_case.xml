@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Case" max_length="40" name="x_snc_hsm_case" sizeclass="8" text_index="true" type="collection">
+        <element label="Claimed Insurance" max_length="40" name="claimed_insurance" type="boolean"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Created by for Mobile" max_length="32" name="created_mobile" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="Diagnostic Bill" max_length="20" name="diagnostic_bill" type="currency"/>
+        <element attributes="encode_utf8=false" label="Diagnostic Number" max_length="32" name="diagnostic_number" reference="x_snc_hsm_diagnostic" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Doctor Comments" max_length="40" name="doctor_comments" type="journal_input"/>
+        <element label="Hospital Bill" max_length="20" name="hospital_bill" type="currency"/>
+        <element label="Insurance Approved Amount" max_length="20" name="insurance_approved_amount" type="currency"/>
+        <element label="Insurance Bill" max_length="20" name="insurance_bill" type="currency"/>
+        <element label="Insurance Claimed Amount" max_length="20" name="insurance_claimed_amount" type="currency"/>
+        <element label="INS Number" max_length="32" name="ins_number" reference="x_snc_hsm_insurance" type="reference"/>
+        <element attributes="encode_utf8=false" label="Medicine Prescription" max_length="32" name="medicine_prescription" reference="x_snc_hsm_medicine" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Notepad" max_length="4000" name="notepad" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Case Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Pharmacy Bill" max_length="20" name="pharmacy_bill" type="currency"/>
+        <element label="Pharmacy check" max_length="40" name="pharmacy_check" type="boolean"/>
+        <element attributes="encode_utf8=false" label="Pharmacy Record" max_length="32" name="pharmacy_record" reference="x_snc_hsm_pharmacy" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Amount To Be Paid" max_length="20" name="total_bill" type="currency"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Type Of Tests" max_length="1024" name="type_of_tests" reference="x_snc_hsm_diagnostic_tests" type="glide_list"/>
+        <element attributes="encode_utf8=false" label="Category" max_length="32" name="u_category" read_only="true" reference="sc_cat_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Appointment" max_length="40" name="u_date_of_appointment" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="DID Number" max_length="32" name="u_did_number" reference="x_snc_hsm_doctor" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Doctor Name" max_length="40" name="u_doctor_name" reference="x_snc_hsm_doctor" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason for consulting Doctor" max_length="1000" name="u_issue_description" type="string"/>
+        <element attributes="encode_utf8=false" label="Patient History" max_length="32" name="u_patient_history" reference="x_snc_hsm_patient" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Patient Name" max_length="40" name="u_patient_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="waiting_for_approval" label="State" max_length="40" name="u_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Waiting For Approval" sequence="0" value="waiting_for_approval"/>
+                <element inactive_on_update="false" label="Booked Appointment" sequence="1" value="booked_appointment"/>
+                <element inactive_on_update="false" label="Doctor Visit" sequence="2" value="doctor_visit"/>
+                <element inactive_on_update="false" label="Diagnostics" sequence="3" value="diagnostics"/>
+                <element inactive_on_update="false" label="Revisit Doctor" sequence="4" value="revisit_doctor"/>
+                <element inactive_on_update="false" label="Pharmacy" sequence="5" value="pharmacy"/>
+                <element inactive_on_update="false" label="Pay Bill" sequence="6" value="pay_bill"/>
+                <element inactive_on_update="false" label="Insurance Claim In Progress" sequence="7" value="insurance claim in progress"/>
+                <element inactive_on_update="false" label="Closed" sequence="8" value="closed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="9" value="cancelled"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Substate" max_length="40" name="u_substate" read_only="true" type="string">
+            <choice>
+                <element dependent_value="diagnostics" inactive_on_update="false" label="Awaiting Diagnostic Results" sequence="0" value="awaiting_diagnostic_results"/>
+                <element dependent_value="diagnostics" inactive_on_update="false" label="Received Diagnostics Results" sequence="1" value="received_diagnostics_results"/>
+                <element dependent_value="pharmacy" inactive_on_update="false" label="Medicine Prescibed" sequence="2" value="medicine prescibed"/>
+                <element dependent_value="pharmacy" inactive_on_update="false" label="Collected" sequence="3" value="collected"/>
+                <element inactive="true" inactive_on_update="true" label="Cancelled" sequence="4" value="cancelled"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Timeslot" max_length="40" name="u_timeslot" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="normal" label="Type Of Case" max_length="40" name="u_type_of_case" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Normal" sequence="0" value="normal"/>
+                <element inactive_on_update="false" label="Emergency" sequence="1" value="emergency"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_category"/>
+        </index>
+        <index name="index2">
+            <element name="diagnostic_number"/>
+        </index>
+        <index name="index3">
+            <element name="u_patient_history"/>
+        </index>
+        <index name="index4">
+            <element name="pharmacy_record"/>
+        </index>
+        <index name="index5">
+            <element name="medicine_prescription"/>
+        </index>
+        <index name="index6">
+            <element name="created_mobile"/>
+        </index>
+        <index name="index7">
+            <element name="u_did_number"/>
+        </index>
+        <index name="index8">
+            <element name="ins_number"/>
+        </index>
+        <index name="index9">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

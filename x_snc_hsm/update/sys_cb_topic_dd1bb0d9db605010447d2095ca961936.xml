@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category/>
+        <connect_queue/>
+        <description>Book an Appointment with the doctor</description>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "c895db72a7a144d7b8901349936593f1": {
+      "id": "c895db72a7a144d7b8901349936593f1",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "8ee575276da24d6a86ec2fde76d95c8b": {
+          "id": "8ee575276da24d6a86ec2fde76d95c8b",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "ad5fcb20918f4bdcbda05d9d20407d65": {
+          "id": "ad5fcb20918f4bdcbda05d9d20407d65",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "26c892f370a44403975d0dbb8cffe717": {
+          "stepType": "CarouselPrompt",
+          "name": "Choose Category",
+          "prompt": {
+            "value": "",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "ea13e4371e2f45cf9240206d9743ada4",
+          "id": "26c892f370a44403975d0dbb8cffe717",
+          "carouselLabel": {
+            "value": "Select the category",
+            "mode": "simple"
+          },
+          "carouselItemExpression": "(function execute() {\n    \n       var options = [];\n       options.push(\n            {\n                'Name': 'General Physician',\n                'Value': '010f345ddb605010447d2095ca9619f7',\n                'Body': 'https://hackathon090.service-now.com/d4ea421ddba050100f1eccfa139619bf.iix'\n            }\n       );\n       options.push(\n            {\n                'Name': 'Dermatologist',\n                'Value': '247fb45ddb605010447d2095ca961970',\n                'Body': 'https://hackathon090.service-now.com/6b0b461ddba050100f1eccfa13961918.iix'\n            }\n       );\n       \n       options.push(\n            {\n                'Name': 'ENT Specialist',\n                'Value': '28337b89dbac1010447d2095ca96195f',\n                'Body': 'https://hackathon090.service-now.com/0920e7e1dbec50100f1eccfa13961965.iix'\n            }\n       );\n       \n       options.push(\n            {\n                'Name': 'Dentist',\n                'Value': '413ff45ddb605010447d2095ca961916',\n                'Body': 'https://hackathon090.service-now.com/925b4a1ddba050100f1eccfa13961947.iix'\n            }\n       );\n       options.push(\n            {\n                'Name': 'Nutritionist',\n                'Value': '92fef05ddb605010447d2095ca961947',\n                'Body': 'https://hackathon090.service-now.com/f77cc65ddba050100f1eccfa139619ab.iix'\n            }\n       );\n\n       options.push(\n            {\n                'Name': 'Ayurvedha',\n                'Value': 'a659bc59db605010447d2095ca9619de',\n                'Body': 'https://hackathon090.service-now.com/5deb025ddba050100f1eccfa1396197a.iix'\n            }\n       );\n       options.push(\n            {\n                'Name': 'Cardiologist',\n                'Value': 'c51f745ddb605010447d2095ca961910',\n                'Body': 'https://hackathon090.service-now.com/8f8b4e1ddba050100f1eccfa139619a2.iix'\n            }\n       );\n\n        options.push(\n            {\n                'Name': 'Pediatric',\n                'Value': 'c52f745ddb605010447d2095ca961983',\n                'Body': 'https://hackathon090.service-now.com/d6bb8e1ddba050100f1eccfa139619df.iix'\n            }\n       );\n\n\n options.push(\n            {\n                'Name': 'Psychologist',\n                'Value': 'ee77c819dbec1010447d2095ca96193b',\n                'Body': 'https://hackathon090.service-now.com/367b0e1ddba050100f1eccfa139619a1.iix'\n            }\n       );\n\n\n\n\n       return options;\n    \n\n    var options = []; // add options here...\n    return options;\n})()\n",
+          "noRecordsResponseMsg": {
+            "value": "No Records Found",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
+        },
+        "5d73942f17294907bfe4d596917f7e95": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "Select The Doctor",
+          "prompt": {
+            "value": "Select the Doctor",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "ec0d1860cc4545f1ad28d392fe7c0389",
+          "id": "5d73942f17294907bfe4d596917f7e95",
+          "mode": "glide_record",
+          "script": "",
+          "noRecordsResponseMsg": {
+            "value": "Category is not available",
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "specialization={{vaInputs.choose_category}}"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
+        },
+        "46e73e6a1ce44fdca8bd0c9acda934b4": {
+          "id": "46e73e6a1ce44fdca8bd0c9acda934b4",
+          "stepType": "Prompt",
+          "name": "date of appointment",
+          "prompt": {
+            "value": "Select the Date of Appointment",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "f8bc887e48a944f0abef35e3bee0e60d"
+        },
+        "c502ac77be054b519e2fe9d4061907ea": {
+          "id": "c502ac77be054b519e2fe9d4061907ea",
+          "stepType": "Prompt",
+          "name": "Reason of consulting doctor",
+          "prompt": {
+            "value": "Reason for consulting doctor",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": "",
+          "variableId": "9611104c58194a6a8fb75ce8a98e439f"
+        },
+        "ef0fb75d814b439d8843686b32e8d969": {
+          "id": "ef0fb75d814b439d8843686b32e8d969",
+          "stepType": "CrudAction",
+          "name": "Create Case",
+          "template": "u_category={{vaInputs.choose_category}}^u_patient_history={{vaInputs.user.u_reference_pidnumber}}^u_type_of_case=normal^u_patient_name={{vaInputs.user.middle_name}}{{vaInputs.user.u_reference_pidnumber.u_patient_name}}^u_did_number={{vaInputs.select_the_doctor}}^u_date_of_appointment={{vaInputs.date_of_appointment}}^u_timeslot=10 AM^u_issue_description={{vaInputs.reason_of_consulting_doctor}}",
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "f9b36e2af08049d9aba772ab1d79ae23"
+        },
+        "86a814329f9341a28b733590484ae70b": {
+          "id": "86a814329f9341a28b733590484ae70b",
+          "stepType": "TextOutput",
+          "name": "Repomse",
+          "value": {
+            "value": "Your Appointment has been created Check my cases for further updates",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "5d9bc7913978423dbfd0ef424c964b77": {
+          "id": "5d9bc7913978423dbfd0ef424c964b77",
+          "stepType": "RecordOutput",
+          "name": "Show that record",
+          "variableId": "f9b36e2af08049d9aba772ab1d79ae23",
+          "mode": "variable",
+          "tableName": "x_snc_hsm_case",
+          "fields": [
+            "number",
+            "u_state",
+            "u_doctor_name",
+            "u_patient_name",
+            "u_date_of_appointment",
+            "u_issue_description"
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "3c787896dcb04ed095001f7c8e672440",
+          "edgeType": "Edge",
+          "source": "8ee575276da24d6a86ec2fde76d95c8b",
+          "target": "26c892f370a44403975d0dbb8cffe717",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "32765afbc51140dfa88a836c1aff2862",
+          "edgeType": "Edge",
+          "source": "26c892f370a44403975d0dbb8cffe717",
+          "target": "5d73942f17294907bfe4d596917f7e95",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b5151a73bf734a4cba7b63f213824701",
+          "edgeType": "Edge",
+          "source": "5d73942f17294907bfe4d596917f7e95",
+          "target": "46e73e6a1ce44fdca8bd0c9acda934b4",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ae117b41171a4cb1984138c9152b2a7f",
+          "edgeType": "Edge",
+          "source": "46e73e6a1ce44fdca8bd0c9acda934b4",
+          "target": "c502ac77be054b519e2fe9d4061907ea",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ba08610c4dcb4b4785377ea2738fa4b7",
+          "edgeType": "Edge",
+          "source": "c502ac77be054b519e2fe9d4061907ea",
+          "target": "ef0fb75d814b439d8843686b32e8d969",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "9d81ab6af6334141a5ef5f7f12d0d1e4",
+          "edgeType": "Edge",
+          "source": "ef0fb75d814b439d8843686b32e8d969",
+          "target": "86a814329f9341a28b733590484ae70b",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "02f5268f48fc40dbb75f2d5fa8f7d239",
+          "edgeType": "Edge",
+          "source": "86a814329f9341a28b733590484ae70b",
+          "target": "5d9bc7913978423dbfd0ef424c964b77",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "74b646072f394e9bb775471776e65f77",
+          "edgeType": "Edge",
+          "source": "5d9bc7913978423dbfd0ef424c964b77",
+          "target": "ad5fcb20918f4bdcbda05d9d20407d65",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "ea13e4371e2f45cf9240206d9743ada4": {
+      "id": "ea13e4371e2f45cf9240206d9743ada4",
+      "name": "choose_category",
+      "label": "Choose Category",
+      "varType": "carousel-image",
+      "category": "vaInputs"
+    },
+    "ec0d1860cc4545f1ad28d392fe7c0389": {
+      "id": "ec0d1860cc4545f1ad28d392fe7c0389",
+      "name": "select_the_doctor",
+      "label": "Select The Doctor",
+      "varType": "reference",
+      "table": "x_snc_hsm_doctor",
+      "category": "vaInputs"
+    },
+    "cf1a1039d56e47d6b4b2d7780b346641": {
+      "id": "cf1a1039d56e47d6b4b2d7780b346641",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "name": "Options",
+      "label": "Options",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "f8bc887e48a944f0abef35e3bee0e60d": {
+      "id": "f8bc887e48a944f0abef35e3bee0e60d",
+      "name": "date_of_appointment",
+      "label": "Date Of Appointment",
+      "varType": "date_time",
+      "category": "vaInputs",
+      "mode": "date"
+    },
+    "9611104c58194a6a8fb75ce8a98e439f": {
+      "id": "9611104c58194a6a8fb75ce8a98e439f",
+      "name": "reason_of_consulting_doctor",
+      "label": "Reason Of Consulting Doctor",
+      "varType": "string",
+      "category": "vaInputs"
+    },
+    "f9b36e2af08049d9aba772ab1d79ae23": {
+      "id": "f9b36e2af08049d9aba772ab1d79ae23",
+      "name": "create_case",
+      "label": "Create Case",
+      "varType": "reference",
+      "table": "x_snc_hsm_case",
+      "inactive": false,
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Book an Appointment,Appointment,Book Doctor,Doctor Appointment</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Book an Appointment</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 05:11:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>dd1bb0d9db605010447d2095ca961936</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Book an Appointment</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_cb_topic_dd1bb0d9db605010447d2095ca961936</sys_update_name>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-03 11:53:49</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=dd1bb0d9db605010447d2095ca961936"/>
+</record_update>

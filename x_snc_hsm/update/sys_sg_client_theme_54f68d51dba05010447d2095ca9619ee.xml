@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_client_theme">
+    <sys_sg_client_theme action="INSERT_OR_UPDATE">
+        <name>HealthCare Service Mangement</name>
+        <palette>{"Brand":"#5fadf5","Secondary":"#165c53","Primary":"#67f55f","Destructive":"#c83c36"}</palette>
+        <sys_class_name>sys_sg_client_theme</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 06:04:57</sys_created_on>
+        <sys_id>54f68d51dba05010447d2095ca9619ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HealthCare Service Mangement</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_sg_client_theme_54f68d51dba05010447d2095ca9619ee</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 06:04:57</sys_updated_on>
+    </sys_sg_client_theme>
+    <sys_translated_text action="delete_multiple" query="documentkey=54f68d51dba05010447d2095ca9619ee"/>
+</record_update>

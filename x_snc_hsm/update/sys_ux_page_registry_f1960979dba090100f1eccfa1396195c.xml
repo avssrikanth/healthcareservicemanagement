@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_panel>f1960979dba090100f1eccfa1396195b</admin_panel>
+        <admin_panel_table>sys_aw_master_config</admin_panel_table>
+        <page display_value="Workspace Core">b70867ad0f603300bb57f4a1ff767e15</page>
+        <path>workspace/hospitaladministration</path>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-03 19:18:47</sys_created_on>
+        <sys_id>f1960979dba090100f1eccfa1396195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hospital Adminstration</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_ux_page_registry_f1960979dba090100f1eccfa1396195c</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-03 19:18:47</sys_updated_on>
+        <title>Hospital Adminstration</title>
+    </sys_ux_page_registry>
+</record_update>

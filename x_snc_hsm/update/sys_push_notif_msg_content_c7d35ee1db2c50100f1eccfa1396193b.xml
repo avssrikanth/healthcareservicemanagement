@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg_content">
+    <sys_push_notif_msg_content action="INSERT_OR_UPDATE">
+        <name>My appointments</name>
+        <push_app display_value="ServiceNow Request Application">ac7f61d273122300d63a566a4cf6a78b</push_app>
+        <script><![CDATA[(function buildJSON( /*GlideRecord*/ current, /*String*/ message, /*Object*/ attributes) {
+
+    var layoutFieldGenerator = new global.NotificationLayoutFieldGenerator();
+    var identifier = layoutFieldGenerator.layoutField(current.sys_class_name, current.sys_id, "number");
+    var description = layoutFieldGenerator.layoutField(current.sys_class_name, current.sys_id, "short_description");
+    var status = layoutFieldGenerator.layoutField(current.sys_class_name, current.sys_id, "priority");
+
+    var deepLinkGenerator = new global.MobileDeepLinkGenerator("Agent");
+    var link = deepLinkGenerator.getFormScreenLink("90fc12d5dbe050100f1eccfa139619dd", current.getTableName(), current.getValue("sys_id"));
+
+    var json = {};
+
+    json = {
+        "aps": {
+            "sound": "default"
+        },
+		
+        "Link": link,
+        "Layout": {
+            "Status": status,
+            "Identifier": identifier,
+            "Description": description
+        },
+        "action": {
+            "button1_text": attributes.name_of_button,
+            "button1_action": attributes.action_of_button
+        },
+
+    };
+
+    return json;
+
+})(current, message, attributes);]]></script>
+        <sys_class_name>sys_push_notif_msg_content</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-03 06:38:47</sys_created_on>
+        <sys_id>c7d35ee1db2c50100f1eccfa1396193b</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>My appointments</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_push_notif_msg_content_c7d35ee1db2c50100f1eccfa1396193b</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-03 07:14:47</sys_updated_on>
+    </sys_push_notif_msg_content>
+</record_update>

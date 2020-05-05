@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="3575ef01dbac1010447d2095ca961941" sys_domain="global" table="x_snc_hsm_pharmacy" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:57:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3d75ef01dbac1010447d2095ca961943</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hsm_pharmacy" name="x_snc_hsm_pharmacy" sys_domain="global" view="Default view">3575ef01dbac1010447d2095ca961941</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_pharmacy" sys_domain="global" view="Default view">b15263cddb6c1010447d2095ca961900</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:57:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:57:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f975ef01dbac1010447d2095ca961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hsm_pharmacy" name="x_snc_hsm_pharmacy" sys_domain="global" view="Default view">3575ef01dbac1010447d2095ca961941</sys_ui_form>
+            <sys_ui_section caption="Doctor Details" display_value="Doctor Details" name="x_snc_hsm_pharmacy" sys_domain="global" view="Default view">6575af01dbac1010447d2095ca9619f3</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:57:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:57:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7175ef01dbac1010447d2095ca961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hsm_pharmacy" name="x_snc_hsm_pharmacy" sys_domain="global" view="Default view">3575ef01dbac1010447d2095ca961941</sys_ui_form>
+            <sys_ui_section caption="Patient Details" display_value="Patient Details" name="x_snc_hsm_pharmacy" sys_domain="global" view="Default view">7575af01dbac1010447d2095ca9619f4</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:57:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:57:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7975ef01dbac1010447d2095ca96194b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_hsm_pharmacy" name="x_snc_hsm_pharmacy" sys_domain="global" view="Default view">3575ef01dbac1010447d2095ca961941</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_hsm_pharmacy" sys_domain="global" view="Default view">fd75ef01dbac1010447d2095ca96193f</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:57:29</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_hsm_pharmacy</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:57:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3575ef01dbac1010447d2095ca961941</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_hsm_pharmacy</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_3575ef01dbac1010447d2095ca961941</sys_update_name>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:57:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

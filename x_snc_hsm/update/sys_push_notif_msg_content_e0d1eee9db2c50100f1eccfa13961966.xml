@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg_content">
+    <sys_push_notif_msg_content action="INSERT_OR_UPDATE">
+        <name>appointments</name>
+        <push_app display_value="ServiceNow Request Application">ac7f61d273122300d63a566a4cf6a78b</push_app>
+        <script><![CDATA[(function buildJSON( /*GlideRecord*/ current, /*String*/ message, /*Object*/ attributes) {
+
+    // Establish the layout field generator
+    var layoutFieldGenerator = new global.NotificationLayoutFieldGenerator();
+    // Below is your popular reference, for a lot of task tables it is 'number'
+    var identifier = layoutFieldGenerator.layoutField(current.getTableName(), current.getUniqueValue(), "number");
+    // Below is your substance of the notification which goes below the message (generally)
+    var description = layoutFieldGenerator.layoutField(current.getTableName(), current.getUniqueValue(), "short_description");
+
+    // Establish the deep link generator, use "agent" for Now Agent, "request" for Now Mobile, and "onboarding" for the HR Onboarding app
+    var deepLinkGenerator = new global.MobileDeepLinkGenerator("agent");
+    // There is also a general Screen Link function, but this is a sample for a Form Screen Link
+    var link = deepLinkGenerator.getFormScreenLink('90fc12d5dbe050100f1eccfa139619dd', current.getTableName(), current.getUniqueValue());
+
+    var json = {};
+
+    json = {
+        "aps": {
+            "sound": "default"
+        },
+        "Link": link,
+        "Layout": {
+            "Identifier": identifier,
+            "Description": description
+        }
+    };
+
+    return json;
+
+})(current, message, attributes);]]></script>
+        <sys_class_name>sys_push_notif_msg_content</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-03 07:23:12</sys_created_on>
+        <sys_id>e0d1eee9db2c50100f1eccfa13961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>appointments</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_push_notif_msg_content_e0d1eee9db2c50100f1eccfa13961966</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-03 07:23:12</sys_updated_on>
+    </sys_push_notif_msg_content>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="List of Medicines" max_length="40" name="x_snc_hsm_list_of_medicines" sizeclass="9" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Composition" max_length="100" name="formula" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Manufacturer" max_length="100" name="manufacturer" type="string"/>
+        <element display="true" label="Medicine Name" max_length="100" name="medicine_name" type="string"/>
+    </element>
+</database>

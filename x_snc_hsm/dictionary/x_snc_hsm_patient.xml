@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Patient" max_length="40" name="x_snc_hsm_patient" sizeclass="5" text_index="true" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="PID Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="Patient ID" max_length="32" name="patient_id" reference="sys_user" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Age" mandatory="true" max_length="40" name="u_age" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" mandatory="true" max_length="40" name="u_gender" type="string">
+            <choice>
+                <element inactive_on_update="false" label="MALE" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="FEMALE" sequence="1" value="female"/>
+                <element inactive_on_update="false" label="OTHER" sequence="2" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Government ID" mandatory="true" max_length="40" name="u_government_id" type="string"/>
+        <element label="Have Insurance" max_length="40" name="u_have_insurance" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Insurance Company" max_length="255" name="u_insurance_company" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Insurance Number" max_length="40" name="u_insurance_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Patient Name" mandatory="true" max_length="40" name="u_patient_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" mandatory="true" max_length="40" name="u_phone_number" type="string"/>
+        <index name="index">
+            <element name="patient_id"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

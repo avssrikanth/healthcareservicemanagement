@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_producer">
+    <sc_cat_item_producer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <can_cancel>false</can_cancel>
+        <category display_value="Book an Appointment">d3690115dba05010447d2095ca96197a</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>false</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Dentist</name>
+        <no_attachment_v2>true</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture>925b4a1ddba050100f1eccfa13961947</picture>
+        <post_insert_script/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=413ff45ddb605010447d2095ca961916&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <redirect_url>generated_record</redirect_url>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script><![CDATA[current.u_category = producer.category;
+current.u_date_of_appointment = producer.appointment_date;
+current.u_timeslot = producer.time_slot;
+current.u_issue_description = producer.reason_for_consulting_doctor;
+current.created_mobile = gs.getUserID();
+
+var userGr = new GlideRecord("sys_user");
+userGr.addQuery("sys_id", producer.patient_name);
+userGr.query();
+if (userGr.next()) {
+    current.u_patient_history = userGr.u_reference_pidnumber;
+	current.u_patient_name = userGr.user_name;
+}
+
+var doctorGr = new GlideRecord("x_snc_hsm_doctor");
+doctorGr.addQuery("doctor_name", producer.doctor_name);
+doctorGr.query();
+if (doctorGr.next()) {
+    current.u_did_number = doctorGr.sys_id;
+	current.u_doctor_name = doctorGr.sys_id;//doctor_name;
+    var didNum = doctorGr.sys_id;
+	//var doctorNAme;
+}
+
+var timeSlotGr = new GlideRecord("x_snc_hsm_timeslot_details");
+timeSlotGr.addQuery("did_number", didNum);
+timeSlotGr.addQuery("available_date", producer.appointment_date);
+timeSlotGr.addQuery("time_slot", producer.time_slot);
+timeSlotGr.query();
+if (timeSlotGr.next()) {
+    timeSlotGr.booked = true;
+    timeSlotGr.update();
+}]]></script>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_producer</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-02 05:29:33</sys_created_on>
+        <sys_id>413ff45ddb605010447d2095ca961916</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Dentist</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sc_cat_item_producer_413ff45ddb605010447d2095ca961916</sys_update_name>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-02 11:41:04</sys_updated_on>
+        <table_name>x_snc_hsm_case</table_name>
+        <template/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <view/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_producer>
+    <sys_translated_text action="delete_multiple" query="documentkey=413ff45ddb605010447d2095ca961916"/>
+    <fx_price action="delete_multiple" query="id=413ff45ddb605010447d2095ca961916"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>413ff45ddb605010447d2095ca961916</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-02 05:29:33</sys_created_on>
+        <sys_id>c93ff45ddb605010447d2095ca961916</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-02 05:29:33</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>413ff45ddb605010447d2095ca961916</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-02 05:29:33</sys_created_on>
+        <sys_id>413ff45ddb605010447d2095ca9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-02 05:29:33</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#b7796e</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>picture</file_name>
+        <hash>925a6ad43f0c056d2a2ad6f7594bc6d034c36b80271597dfb8af71f915c16bf2</hash>
+        <image_height>120</image_height>
+        <image_width>180</image_width>
+        <size_bytes>4302</size_bytes>
+        <size_compressed>4300</size_compressed>
+        <state>available</state>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 11:02:13</sys_created_on>
+        <sys_id>925b4a1ddba050100f1eccfa13961947</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 11:02:14</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>413ff45ddb605010447d2095ca961916</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="925b4a1ddba050100f1eccfa13961947">925b4a1ddba050100f1eccfa13961947</sys_attachment>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 11:02:13</sys_created_on>
+        <sys_id>d25b4a1ddba050100f1eccfa13961947</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>5720</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="925b4a1ddba050100f1eccfa13961947">925b4a1ddba050100f1eccfa13961947</sys_attachment>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 11:02:13</sys_created_on>
+        <sys_id>565b4a1ddba050100f1eccfa13961947</sys_id>
+    </sys_attachment_doc>
+</record_update>

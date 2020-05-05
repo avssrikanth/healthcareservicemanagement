@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA Health Care Manageme - New Tab">bd326aa1dbac5010447d2095ca9619ac</canvas_page>
+        <name>Health Care Manageme - New Tab</name>
+        <page display_value="PA Health Care Manageme - New Tab">39326aa1dbac5010447d2095ca9619ab</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 07:20:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>39326aa1dbac5010447d2095ca9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Health Care Manageme - New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>pa_tabs_39326aa1dbac5010447d2095ca9619af</sys_update_name>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 07:20:38</sys_updated_on>
+    </pa_tabs>
+</record_update>

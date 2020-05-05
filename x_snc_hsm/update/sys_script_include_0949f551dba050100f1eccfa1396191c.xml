@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_hsm.checkAttachment</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description> var attach = new GlideRecord('sys_attachment');&#13;
+    attach.addQuery('table_sys_id', sysid);&#13;
+    attach.query();&#13;
+    if (!attach.next()) {&#13;
+        g_form.addErrorMessage("Diagnostic Record should have one report attached");&#13;
+        return false;&#13;
+&#13;
+    }</description>
+        <name>checkAttachment</name>
+        <script><![CDATA[var checkAttachment = Class.create();
+checkAttachment.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+    checkCount: function() {
+
+        var attach = new GlideRecord('sys_attachment');
+        attach.addQuery('table_sys_id', this.getParameter('sysparm_sysId'));
+        attach.query();
+        if (!attach.next()) {
+
+            return true;
+
+        } else {
+            return false;
+        }
+
+    },
+
+    type: 'checkAttachment'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>chalanbl</sys_created_by>
+        <sys_created_on>2020-05-02 09:45:12</sys_created_on>
+        <sys_id>0949f551dba050100f1eccfa1396191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>checkAttachment</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_script_include_0949f551dba050100f1eccfa1396191c</sys_update_name>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-02 09:45:12</sys_updated_on>
+    </sys_script_include>
+</record_update>

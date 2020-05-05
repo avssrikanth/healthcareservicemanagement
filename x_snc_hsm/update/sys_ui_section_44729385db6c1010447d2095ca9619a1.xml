@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="44729385db6c1010447d2095ca9619a1" sys_domain="global" table="x_snc_hsm_doctor" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:16:34</sys_created_on>
+            <sys_id>621c1bc9db6c1010447d2095ca961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_doctor" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">44729385db6c1010447d2095ca9619a1</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:16:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>doctor_name</element>
+            <position>1</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:16:34</sys_created_on>
+            <sys_id>e61c1bc9db6c1010447d2095ca961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_doctor" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">44729385db6c1010447d2095ca9619a1</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:16:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_qualification</element>
+            <position>2</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:16:34</sys_created_on>
+            <sys_id>6e1c1bc9db6c1010447d2095ca961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_doctor" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">44729385db6c1010447d2095ca9619a1</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:16:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>specialization</element>
+            <position>3</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:16:34</sys_created_on>
+            <sys_id>e21c1bc9db6c1010447d2095ca961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_doctor" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">44729385db6c1010447d2095ca9619a1</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:16:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_license_number</element>
+            <position>4</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:16:34</sys_created_on>
+            <sys_id>6a1c1bc9db6c1010447d2095ca961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_doctor" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">44729385db6c1010447d2095ca9619a1</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:16:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:16:34</sys_created_on>
+            <sys_id>ee1c1bc9db6c1010447d2095ca961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_doctor" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">44729385db6c1010447d2095ca9619a1</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:16:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_location</element>
+            <position>6</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:16:34</sys_created_on>
+            <sys_id>661c1bc9db6c1010447d2095ca961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_doctor" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">44729385db6c1010447d2095ca9619a1</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:16:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_gender</element>
+            <position>7</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:16:34</sys_created_on>
+            <sys_id>ea1c1bc9db6c1010447d2095ca961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_doctor" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">44729385db6c1010447d2095ca9619a1</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:16:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_hospital</element>
+            <position>8</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:16:34</sys_created_on>
+            <sys_id>621c1bc9db6c1010447d2095ca961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_doctor" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">44729385db6c1010447d2095ca9619a1</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:16:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_email</element>
+            <position>9</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:16:34</sys_created_on>
+            <sys_id>e61c1bc9db6c1010447d2095ca961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_doctor" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">44729385db6c1010447d2095ca9619a1</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:16:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_phone_number</element>
+            <position>10</position>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:16:34</sys_created_on>
+            <sys_id>6e1c1bc9db6c1010447d2095ca961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_doctor" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">44729385db6c1010447d2095ca9619a1</sys_ui_section>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:16:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_hsm_doctor</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 21:34:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44729385db6c1010447d2095ca9619a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_hsm_doctor</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+            <sys_update_name>sys_ui_section_44729385db6c1010447d2095ca9619a1</sys_update_name>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 21:34:21</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">939aa3d8dbd300100f1eccfa139619a2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

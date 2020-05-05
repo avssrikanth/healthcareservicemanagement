@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Pharmacy" max_length="40" name="x_snc_hsm_pharmacy" sizeclass="26" text_index="true" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Pharmacy Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Pharmacy ID" max_length="32" name="pharmacy_id" reference="sys_user" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="encode_utf8=false" label="CASE Number" max_length="32" name="u_case_reference" reference="x_snc_hsm_case" type="reference"/>
+        <element attributes="encode_utf8=false" label="DID Number" max_length="32" name="u_did_number" reference="x_snc_hsm_doctor" type="reference"/>
+        <element label="Medication Days" max_length="40" name="u_medication_days" type="integer"/>
+        <element active="false" attributes="encode_utf8=false" label="Medicine" max_length="32" name="u_medicine" reference="x_snc_hsm_medicine" type="reference"/>
+        <element attributes="encode_utf8=false" label="PID Number" mandatory="true" max_length="32" name="u_pd_number" reference="x_snc_hsm_patient" type="reference"/>
+        <element attributes="omit_sys_original=true" label="Pharmacy Bill" max_length="20" name="u_pharmacy_bill" type="currency"/>
+        <element label="Quantity" max_length="40" name="u_qty" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="ordered medicine" label="State" max_length="40" name="u_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Ordered Medicine" sequence="0" value="ordered medicine"/>
+                <element inactive="true" inactive_on_update="true" label="Ready to Collect" sequence="1" value="ready to collect"/>
+                <element inactive_on_update="false" label="Collected" sequence="2" value="collected"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="3" value="cancelled"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_medicine"/>
+        </index>
+        <index name="index2">
+            <element name="u_case_reference"/>
+        </index>
+        <index name="index3">
+            <element name="pharmacy_id"/>
+        </index>
+        <index name="index4">
+            <element name="u_did_number"/>
+        </index>
+        <index name="index5">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index6">
+            <element name="u_pd_number"/>
+        </index>
+    </element>
+</database>

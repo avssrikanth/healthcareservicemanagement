@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category/>
+        <connect_queue/>
+        <description>Know My Bills</description>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "da683056dd0b4a2382bab8705e1066e8": {
+      "id": "da683056dd0b4a2382bab8705e1066e8",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "54a27f490ef9449abb9a8166c8719bc3": {
+          "id": "54a27f490ef9449abb9a8166c8719bc3",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "db5eb566b070467888606baa9df85918": {
+          "id": "db5eb566b070467888606baa9df85918",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "4ba076b8d86d47758ec323236c13b0fe": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "Know My Bill",
+          "prompt": {
+            "value": "Select the case to know the total bill",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "4183bb34f949430e92b4997871e1255e",
+          "id": "4ba076b8d86d47758ec323236c13b0fe",
+          "mode": "glide_record",
+          "script": "",
+          "noRecordsResponseMsg": {
+            "value": "No Case Exists",
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "u_state=pay_bill"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "entity": ""
+        },
+        "813db341d8124cf79b5a65741ca62be8": {
+          "id": "813db341d8124cf79b5a65741ca62be8",
+          "stepType": "TextOutput",
+          "name": "Greeting !!",
+          "value": {
+            "value": "Thanks for entering the case number !!",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "ab514f299eeb4a69a73980411030cbe2": {
+          "id": "ab514f299eeb4a69a73980411030cbe2",
+          "stepType": "RecordOutput",
+          "name": "Case Details",
+          "variableId": "4183bb34f949430e92b4997871e1255e",
+          "mode": "variable",
+          "tableName": "x_snc_hsm_case",
+          "fields": [
+            "number",
+            "hospital_bill",
+            "diagnostic_bill",
+            "pharmacy_bill",
+            "total_bill"
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "b7fd8f61761a418baaff0064f22e523d",
+          "edgeType": "Edge",
+          "source": "54a27f490ef9449abb9a8166c8719bc3",
+          "target": "4ba076b8d86d47758ec323236c13b0fe",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "fb67c23f7c0c4de9a525adc6131f7783",
+          "edgeType": "Edge",
+          "source": "4ba076b8d86d47758ec323236c13b0fe",
+          "target": "813db341d8124cf79b5a65741ca62be8",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "70497bebd10b4defb594c2ebdbec82b3",
+          "edgeType": "Edge",
+          "source": "813db341d8124cf79b5a65741ca62be8",
+          "target": "ab514f299eeb4a69a73980411030cbe2",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "2f51583eaca2463abcdee9e2eb40051e",
+          "edgeType": "Edge",
+          "source": "ab514f299eeb4a69a73980411030cbe2",
+          "target": "db5eb566b070467888606baa9df85918",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "4183bb34f949430e92b4997871e1255e": {
+      "id": "4183bb34f949430e92b4997871e1255e",
+      "name": "know_my_bill",
+      "label": "Know My Bill",
+      "varType": "reference",
+      "table": "x_snc_hsm_case",
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Know My Bills,Status,case status</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Know My Bills</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>chalanbl</sys_created_by>
+        <sys_created_on>2020-05-03 07:54:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>030ae621db6c50100f1eccfa13961912</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Know My Bills</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_cb_topic_030ae621db6c50100f1eccfa13961912</sys_update_name>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:50:46</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=030ae621db6c50100f1eccfa13961912"/>
+</record_update>

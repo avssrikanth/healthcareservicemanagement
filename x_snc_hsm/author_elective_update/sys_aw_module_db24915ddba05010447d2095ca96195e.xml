@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_module">
+    <sys_aw_module action="DELETE">
+        <active>true</active>
+        <content/>
+        <content_attrs/>
+        <content_component display_value="sn-workspace-list-module">430c13c072108799d48a4d0306fd9f80</content_component>
+        <content_tag/>
+        <detail/>
+        <detail_attrs/>
+        <detail_component/>
+        <detail_tag/>
+        <hide_until_ready>false</hide_until_ready>
+        <icon>calendar-clock-fill</icon>
+        <id>Approve appointments</id>
+        <label>Approve Appointments</label>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_aw_module</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 07:03:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>db24915ddba05010447d2095ca96195e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Approve appointments</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_props/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_aw_module_db24915ddba05010447d2095ca96195e</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 07:06:28</sys_updated_on>
+        <toolbar_button/>
+        <type>full</type>
+        <workspace_config display_value="Doctor">afca4155dba05010447d2095ca9619d4</workspace_config>
+    </sys_aw_module>
+    <sys_variable_value action="DELETE" query="document_key=db24915ddba05010447d2095ca96195e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</application>
+        <file_path/>
+        <instance_id>cfb231404f00d600facf220f0310c748</instance_id>
+        <instance_name>hackathon090</instance_name>
+        <name>sys_aw_module_db24915ddba05010447d2095ca96195e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_module"><sys_aw_module action="INSERT_OR_UPDATE"><active>true</active><content/><content_attrs/><content_component display_value="sn-workspace-list-module">430c13c072108799d48a4d0306fd9f80</content_component><content_tag/><detail/><detail_attrs/><detail_component/><detail_tag/><hide_until_ready>false</hide_until_ready><icon>calendar-clock-fill</icon><id>Approve appointments</id><label>Approve Appointments</label><order>100</order><roles/><sys_class_name>sys_aw_module</sys_class_name><sys_created_by>avssrikanth99</sys_created_by><sys_created_on>2020-05-02 07:03:37</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>db24915ddba05010447d2095ca96195e</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Approve appointments</sys_name><sys_overrides/><sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package><sys_policy/><sys_props/><sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope><sys_update_name>sys_aw_module_db24915ddba05010447d2095ca96195e</sys_update_name><sys_updated_by>avssrikanth99</sys_updated_by><sys_updated_on>2020-05-02 07:06:28</sys_updated_on><toolbar_button/><type>full</type><workspace_config display_value="Doctor">afca4155dba05010447d2095ca9619d4</workspace_config></sys_aw_module><sys_variable_value action="delete_multiple" query="document_key=db24915ddba05010447d2095ca96195e"/></record_update>]]></payload>
+        <payload_hash>-2025244146</payload_hash>
+        <record_name>Approve appointments</record_name>
+        <reverted_from/>
+        <source>28f9c38ddb2c1010447d2095ca9619ae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 07:11:25</sys_created_on>
+        <sys_id>518611dddba05010447d2095ca96198a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d439bb580000001</sys_recorded_at>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 07:11:25</sys_updated_on>
+        <type>Workspace Module</type>
+        <update_guid>3465d19d88a05010fb233df3ebbc8a47</update_guid>
+        <update_guid_history>3465d19d88a05010fb233df3ebbc8a47:-428869792,3465d19d88a05010fb233df3ebbc8a47:-428869792,2c059d5deda05010f8750e9f4e280976:395668982,1bb4995dbea05010f5ac1f3382fd8d08:-840156512</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 07:11:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_aw_module">sys_aw_module</sys_db_object>
+        <sys_id>073dfb367e1b4f0c83cfc5816154d3e4</sys_id>
+        <sys_metadata>db24915ddba05010447d2095ca96195e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approve appointments</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_scope_delete display_value="">2296593c1ecc48008ab2077093804000</sys_scope_delete>
+        <sys_update_name>sys_aw_module_db24915ddba05010447d2095ca96195e</sys_update_name>
+        <sys_update_version display_value="sys_aw_module_db24915ddba05010447d2095ca96195e">518611dddba05010447d2095ca96198a</sys_update_version>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 07:11:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

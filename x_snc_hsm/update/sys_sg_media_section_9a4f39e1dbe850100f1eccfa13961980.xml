@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_media_section">
+    <sys_sg_media_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button_instance/>
+        <data_item/>
+        <headline>NOT ALL HEROES WEAR CAPES</headline>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <image_attachment/>
+        <orientation>horizontal</orientation>
+        <required_roles/>
+        <sys_class_name>sys_sg_media_section</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-03 04:51:32</sys_created_on>
+        <sys_id>9a4f39e1dbe850100f1eccfa13961980</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>thankyou video</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_sg_media_section_9a4f39e1dbe850100f1eccfa13961980</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-03 04:53:48</sys_updated_on>
+        <table/>
+        <text>Thank You Doctors,Medical Staff,Health Volunteers for everything you are doing by risking your life for all of us in this tough times.</text>
+        <title>thankyou video</title>
+        <type>video</type>
+        <video_url>https://www.youtube.com/watch?v=FKY4MhuCHkc</video_url>
+        <visible_condition/>
+    </sys_sg_media_section>
+</record_update>

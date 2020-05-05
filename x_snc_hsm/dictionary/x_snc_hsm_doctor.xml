@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Doctor" max_length="40" name="x_snc_hsm_doctor" sizeclass="13" text_index="true" type="collection">
+        <element attributes="encode_utf8=false" label="Doctor ID" max_length="32" name="doctor_id" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Doctor Name" mandatory="true" max_length="50" name="doctor_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="DID Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="Specialization" mandatory="true" max_length="32" name="specialization" reference="sc_cat_item" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" mandatory="true" max_length="40" name="u_gender" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="0" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="1" value="female"/>
+                <element inactive_on_update="false" label="Other" sequence="2" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Hospital" max_length="40" name="u_hospital" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="License Number" mandatory="true" max_length="40" name="u_license_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Location" max_length="40" name="u_location" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone Number" mandatory="true" max_length="40" name="u_phone_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Qualification" mandatory="true" max_length="100" name="u_qualification" type="string"/>
+        <index name="index">
+            <element name="doctor_id"/>
+        </index>
+        <index name="index2">
+            <element name="specialization"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

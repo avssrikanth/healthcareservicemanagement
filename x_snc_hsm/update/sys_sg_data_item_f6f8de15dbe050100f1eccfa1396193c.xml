@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>pharmacy dataitem</name>
+        <query_condition table="x_snc_hsm_pharmacy">u_case_reference.created_mobileDYNAMIC90d1921e5f510100a9ad2572f2b477fe<item endquery="false" field="u_case_reference.created_mobile" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 12:01:47</sys_created_on>
+        <sys_id>f6f8de15dbe050100f1eccfa1396193c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pharmacy dataitem</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_sg_data_item_f6f8de15dbe050100f1eccfa1396193c</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 12:01:47</sys_updated_on>
+        <table>x_snc_hsm_pharmacy</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=f6f8de15dbe050100f1eccfa1396193c"/>
+</record_update>

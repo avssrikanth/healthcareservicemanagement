@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_stream_m2m_master_item">
+    <sys_sg_item_stream_m2m_master_item action="INSERT_OR_UPDATE">
+        <item_stream display_value="My Appointments Item Stream">50fcde95dbe050100f1eccfa1396190a</item_stream>
+        <master_item display_value="My Appointments Master Item">acfc12d5dbe050100f1eccfa139619f6</master_item>
+        <sys_class_name>sys_sg_item_stream_m2m_master_item</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 12:19:07</sys_created_on>
+        <sys_id>a0fc12d5dbe050100f1eccfa139619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_sg_item_stream_m2m_master_item_a0fc12d5dbe050100f1eccfa139619ff</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 12:19:07</sys_updated_on>
+    </sys_sg_item_stream_m2m_master_item>
+</record_update>

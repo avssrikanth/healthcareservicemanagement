@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_media_section">
+    <sys_sg_media_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button_instance/>
+        <data_item/>
+        <headline>STAY FIT - STAY HEALTHY</headline>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <image_attachment display_value="familyexercise.jpg" sys_id="1ee14e65dbe850100f1eccfa139619f8">1ee14e65dbe850100f1eccfa139619f8</image_attachment>
+        <orientation>horizontal</orientation>
+        <required_roles/>
+        <sys_class_name>sys_sg_media_section</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-03 04:59:49</sys_created_on>
+        <sys_id>d3a0ca25dbe850100f1eccfa139619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>familyexercise</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_sg_media_section_d3a0ca25dbe850100f1eccfa139619f9</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-03 04:59:49</sys_updated_on>
+        <table/>
+        <text>Exercise dail to stay fit and it insreases the immunity and reduces the risk of heart and diabetic realted problems and stay active all day long with exercise or walk for atleast one hour .</text>
+        <title>familyexercise</title>
+        <type>image</type>
+        <video_url/>
+        <visible_condition/>
+    </sys_sg_media_section>
+</record_update>

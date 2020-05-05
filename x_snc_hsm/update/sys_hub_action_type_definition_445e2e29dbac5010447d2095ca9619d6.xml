@@ -1,0 +1,2171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>insurance_applied</internal_name>
+        <label_cache>[{"name":"{{action.to}}","label":"action➛to","type":"action","ref":""},{"name":"{{action.patient_name}}","label":"action➛Patient Name","type":"action","ref":""},{"name":"{{action.total_amount}}","label":"action➛Total Amount","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>14a23ae9dbac5010447d2095ca961919</latest_snapshot>
+        <master_snapshot>f8a23ae9dbac5010447d2095ca961958</master_snapshot>
+        <name>Insurance Applied</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:13:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>445e2e29dbac5010447d2095ca9619d6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Insurance Applied</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_445e2e29dbac5010447d2095ca9619d6</sys_update_name>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=445e2e29dbac5010447d2095ca9619d6"/>
+    <sys_variable_value action="delete_multiple" query="document_key=445e2e29dbac5010447d2095ca9619d6"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=445e2e29dbac5010447d2095ca9619d6^sys_idNOT IN7e92f6e9dbac5010447d2095ca96197b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Insurance Applied">445e2e29dbac5010447d2095ca9619d6</action>
+        <cid>d644cd8b-b928-4441-8832-8ae14d1de25f</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:14</sys_created_on>
+        <sys_id>7e92f6e9dbac5010447d2095ca96197b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7e92f6e9dbac5010447d2095ca96197b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7e92f6e9dbac5010447d2095ca96197b</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>4792f6e9dbac5010447d2095ca96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+ var notify = new sn_notify.NotifyScoped();
+ var from = '+12253963290';
+ var to = inputs["to"];
+ new notify.sendSMS(from, to, 'Hi '+ inputs["patientName"]+","+ '\n'+ 'Total Amount Requested for Insurance Claim is : '+ inputs["totalAmount"] + '\n'+ 'Your Request for Insurance Claim is InProgress'+'\n'+'Thank you.');
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7e92f6e9dbac5010447d2095ca96197b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>8f92f6e9dbac5010447d2095ca96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7e92f6e9dbac5010447d2095ca96197b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>7e92f6e9dbac5010447d2095ca96197b</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>4792f6e9dbac5010447d2095ca96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>patientName</field>
+        <id>7e92f6e9dbac5010447d2095ca96197b</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>0792f6e9dbac5010447d2095ca9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7e92f6e9dbac5010447d2095ca96197b</table>
+        <value>{{action.patient_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>7e92f6e9dbac5010447d2095ca96197b</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>0f92f6e9dbac5010447d2095ca96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to</field>
+        <id>7e92f6e9dbac5010447d2095ca96197b</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>8b92f6e9dbac5010447d2095ca9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7e92f6e9dbac5010447d2095ca96197b</table>
+        <value>{{action.to}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>totalAmount</field>
+        <id>7e92f6e9dbac5010447d2095ca96197b</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>c792f6e9dbac5010447d2095ca9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7e92f6e9dbac5010447d2095ca96197b</table>
+        <value>{{action.total_amount}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7e92f6e9dbac5010447d2095ca96197b^sys_idNOT INb292f6e9dbac5010447d2095ca961980,c392f6e9dbac5010447d2095ca961996,cb92f6e9dbac5010447d2095ca961991"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>to</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7e92f6e9dbac5010447d2095ca96197b</model>
+        <model_id>7e92f6e9dbac5010447d2095ca96197b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7e92f6e9dbac5010447d2095ca96197b</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:14</sys_created_on>
+        <sys_id>b292f6e9dbac5010447d2095ca961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>totalAmount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7e92f6e9dbac5010447d2095ca96197b</model>
+        <model_id>7e92f6e9dbac5010447d2095ca96197b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7e92f6e9dbac5010447d2095ca96197b</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>c392f6e9dbac5010447d2095ca961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>patientName</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7e92f6e9dbac5010447d2095ca96197b</model>
+        <model_id>7e92f6e9dbac5010447d2095ca96197b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7e92f6e9dbac5010447d2095ca96197b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>cb92f6e9dbac5010447d2095ca961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_action_input action="delete_multiple" query="model=445e2e29dbac5010447d2095ca9619d6^sys_idNOT IN0a7f6a69dbac5010447d2095ca9619fc,0a7faa69dbac5010447d2095ca961903,4a7fae69dbac5010447d2095ca9619b3"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2aeba2e9-b113-405e-8e5d-4d182df83d37</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>to</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>to</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Insurance Applied">445e2e29dbac5010447d2095ca9619d6</model>
+        <model_id>445e2e29dbac5010447d2095ca9619d6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_445e2e29dbac5010447d2095ca9619d6</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:18:32</sys_created_on>
+        <sys_id>0a7f6a69dbac5010447d2095ca9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:18:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=1363af8b-08de-438d-a6c2-9eb306a33a36</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>patient_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Patient Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Insurance Applied">445e2e29dbac5010447d2095ca9619d6</model>
+        <model_id>445e2e29dbac5010447d2095ca9619d6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_445e2e29dbac5010447d2095ca9619d6</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:18:32</sys_created_on>
+        <sys_id>0a7faa69dbac5010447d2095ca961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:18:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=currency,uiTypeLabel=Currency,uiUniqueId=c46d1b2d-84c3-4652-acc8-a2fb7eb68431</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_amount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Currency">currency</internal_type>
+        <label>Total Amount</label>
+        <mandatory>false</mandatory>
+        <max_length>20</max_length>
+        <model display_value="Insurance Applied">445e2e29dbac5010447d2095ca9619d6</model>
+        <model_id>445e2e29dbac5010447d2095ca9619d6</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_445e2e29dbac5010447d2095ca9619d6</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:18:32</sys_created_on>
+        <sys_id>4a7fae69dbac5010447d2095ca9619b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:18:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=445e2e29dbac5010447d2095ca9619d6^sys_idNOT IN7e92f6e9dbac5010447d2095ca96197b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Insurance Applied">445e2e29dbac5010447d2095ca9619d6</action>
+        <cid>d644cd8b-b928-4441-8832-8ae14d1de25f</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:14</sys_created_on>
+        <sys_id>7e92f6e9dbac5010447d2095ca96197b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7e92f6e9dbac5010447d2095ca96197b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7e92f6e9dbac5010447d2095ca96197b</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>4792f6e9dbac5010447d2095ca96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+ var notify = new sn_notify.NotifyScoped();
+ var from = '+12253963290';
+ var to = inputs["to"];
+ new notify.sendSMS(from, to, 'Hi '+ inputs["patientName"]+","+ '\n'+ 'Total Amount Requested for Insurance Claim is : '+ inputs["totalAmount"] + '\n'+ 'Your Request for Insurance Claim is InProgress'+'\n'+'Thank you.');
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7e92f6e9dbac5010447d2095ca96197b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>8f92f6e9dbac5010447d2095ca96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7e92f6e9dbac5010447d2095ca96197b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>7e92f6e9dbac5010447d2095ca96197b</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>4792f6e9dbac5010447d2095ca96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>patientName</field>
+        <id>7e92f6e9dbac5010447d2095ca96197b</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>0792f6e9dbac5010447d2095ca9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7e92f6e9dbac5010447d2095ca96197b</table>
+        <value>{{action.patient_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>7e92f6e9dbac5010447d2095ca96197b</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>0f92f6e9dbac5010447d2095ca96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to</field>
+        <id>7e92f6e9dbac5010447d2095ca96197b</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>8b92f6e9dbac5010447d2095ca9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7e92f6e9dbac5010447d2095ca96197b</table>
+        <value>{{action.to}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>totalAmount</field>
+        <id>7e92f6e9dbac5010447d2095ca96197b</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>c792f6e9dbac5010447d2095ca9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_7e92f6e9dbac5010447d2095ca96197b</table>
+        <value>{{action.total_amount}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7e92f6e9dbac5010447d2095ca96197b^sys_idNOT INb292f6e9dbac5010447d2095ca961980,c392f6e9dbac5010447d2095ca961996,cb92f6e9dbac5010447d2095ca961991"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>to</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7e92f6e9dbac5010447d2095ca96197b</model>
+        <model_id>7e92f6e9dbac5010447d2095ca96197b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7e92f6e9dbac5010447d2095ca96197b</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:14</sys_created_on>
+        <sys_id>b292f6e9dbac5010447d2095ca961980</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>totalAmount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7e92f6e9dbac5010447d2095ca96197b</model>
+        <model_id>7e92f6e9dbac5010447d2095ca96197b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7e92f6e9dbac5010447d2095ca96197b</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>c392f6e9dbac5010447d2095ca961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>patientName</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label/>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">7e92f6e9dbac5010447d2095ca96197b</model>
+        <model_id>7e92f6e9dbac5010447d2095ca96197b</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_7e92f6e9dbac5010447d2095ca96197b</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:15</sys_created_on>
+        <sys_id>cb92f6e9dbac5010447d2095ca961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_445e2e29dbac5010447d2095ca9619d6^sys_idNOT IN067fae69dbac5010447d2095ca9619b8,827faa69dbac5010447d2095ca961902,c27fae69dbac5010447d2095ca9619b2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>total_amount</element>
+        <help/>
+        <hint/>
+        <label>Total Amount</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_445e2e29dbac5010447d2095ca9619d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:18:32</sys_created_on>
+        <sys_id>067fae69dbac5010447d2095ca9619b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:18:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>to</element>
+        <help/>
+        <hint/>
+        <label>to</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_445e2e29dbac5010447d2095ca9619d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:18:32</sys_created_on>
+        <sys_id>827faa69dbac5010447d2095ca961902</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:18:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>patient_name</element>
+        <help/>
+        <hint/>
+        <label>Patient Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_445e2e29dbac5010447d2095ca9619d6</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:18:32</sys_created_on>
+        <sys_id>c27fae69dbac5010447d2095ca9619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:18:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=445e2e29dbac5010447d2095ca9619d6^sys_idNOT IN55a23ae9dbac5010447d2095ca9619e2"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Insurance Applied">445e2e29dbac5010447d2095ca9619d6</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"55a23ae9dbac5010447d2095ca9619e2","name":"plan"}}</plan>
+        <snapshot>14a23ae9dbac5010447d2095ca961919</snapshot>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>55a23ae9dbac5010447d2095ca9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:25</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>insurance_applied</internal_name>
+        <label_cache>[{"name":"{{action.to}}","label":"action➛to","type":"action","ref":""},{"name":"{{action.patient_name}}","label":"action➛Patient Name","type":"action","ref":""},{"name":"{{action.total_amount}}","label":"action➛Total Amount","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Insurance Applied</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Insurance Applied">445e2e29dbac5010447d2095ca9619d6</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f8a23ae9dbac5010447d2095ca961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:22</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=f8a23ae9dbac5010447d2095ca961958"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f8a23ae9dbac5010447d2095ca961958"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=f8a23ae9dbac5010447d2095ca961958^sys_idNOT IN30a23ae9dbac5010447d2095ca96196e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Insurance Applied">f8a23ae9dbac5010447d2095ca961958</action>
+        <cid>d644cd8b-b928-4441-8832-8ae14d1de25f</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:22</sys_created_on>
+        <sys_id>30a23ae9dbac5010447d2095ca96196e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=30a23ae9dbac5010447d2095ca96196e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>30a23ae9dbac5010447d2095ca96196e</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>05a23ae9dbac5010447d2095ca9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+ var notify = new sn_notify.NotifyScoped();
+ var from = '+12253963290';
+ var to = inputs["to"];
+ new notify.sendSMS(from, to, 'Hi '+ inputs["patientName"]+","+ '\n'+ 'Total Amount Requested for Insurance Claim is : '+ inputs["totalAmount"] + '\n'+ 'Your Request for Insurance Claim is InProgress'+'\n'+'Thank you.');
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>30a23ae9dbac5010447d2095ca96196e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>41a23ae9dbac5010447d2095ca9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=30a23ae9dbac5010447d2095ca96196e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>30a23ae9dbac5010447d2095ca96196e</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>0da23ae9dbac5010447d2095ca9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>patientName</field>
+        <id>30a23ae9dbac5010447d2095ca96196e</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>8da23ae9dbac5010447d2095ca9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_30a23ae9dbac5010447d2095ca96196e</table>
+        <value>{{action.patient_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>30a23ae9dbac5010447d2095ca96196e</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>cda23ae9dbac5010447d2095ca9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to</field>
+        <id>30a23ae9dbac5010447d2095ca96196e</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>05a23ae9dbac5010447d2095ca9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_30a23ae9dbac5010447d2095ca96196e</table>
+        <value>{{action.to}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>totalAmount</field>
+        <id>30a23ae9dbac5010447d2095ca96196e</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>41a23ae9dbac5010447d2095ca9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_30a23ae9dbac5010447d2095ca96196e</table>
+        <value>{{action.total_amount}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=30a23ae9dbac5010447d2095ca96196e^sys_idNOT IN0da23ae9dbac5010447d2095ca9619a2,34a23ae9dbac5010447d2095ca96197d,7ca23ae9dbac5010447d2095ca961983"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>totalAmount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>totalAmount</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">30a23ae9dbac5010447d2095ca96196e</model>
+        <model_id>30a23ae9dbac5010447d2095ca96196e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_30a23ae9dbac5010447d2095ca96196e</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>0da23ae9dbac5010447d2095ca9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>to</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>to</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">30a23ae9dbac5010447d2095ca96196e</model>
+        <model_id>30a23ae9dbac5010447d2095ca96196e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_30a23ae9dbac5010447d2095ca96196e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:22</sys_created_on>
+        <sys_id>34a23ae9dbac5010447d2095ca96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>patientName</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>patientName</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">30a23ae9dbac5010447d2095ca96196e</model>
+        <model_id>30a23ae9dbac5010447d2095ca96196e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_30a23ae9dbac5010447d2095ca96196e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>7ca23ae9dbac5010447d2095ca961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_action_input action="delete_multiple" query="model=f8a23ae9dbac5010447d2095ca961958^sys_idNOT INb8a23ae9dbac5010447d2095ca961966,f4a23ae9dbac5010447d2095ca961960,f8a23ae9dbac5010447d2095ca961959"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=currency,uiTypeLabel=Currency,uiUniqueId=c46d1b2d-84c3-4652-acc8-a2fb7eb68431</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>total_amount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Currency">currency</internal_type>
+        <label>Total Amount</label>
+        <mandatory>false</mandatory>
+        <max_length>20</max_length>
+        <model display_value="Insurance Applied">f8a23ae9dbac5010447d2095ca961958</model>
+        <model_id>f8a23ae9dbac5010447d2095ca961958</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_f8a23ae9dbac5010447d2095ca961958</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:22</sys_created_on>
+        <sys_id>b8a23ae9dbac5010447d2095ca961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=1363af8b-08de-438d-a6c2-9eb306a33a36</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>patient_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Patient Name</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Insurance Applied">f8a23ae9dbac5010447d2095ca961958</model>
+        <model_id>f8a23ae9dbac5010447d2095ca961958</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_f8a23ae9dbac5010447d2095ca961958</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:22</sys_created_on>
+        <sys_id>f4a23ae9dbac5010447d2095ca961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=2aeba2e9-b113-405e-8e5d-4d182df83d37</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>to</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>to</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Insurance Applied">f8a23ae9dbac5010447d2095ca961958</model>
+        <model_id>f8a23ae9dbac5010447d2095ca961958</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_f8a23ae9dbac5010447d2095ca961958</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:22</sys_created_on>
+        <sys_id>f8a23ae9dbac5010447d2095ca961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=f8a23ae9dbac5010447d2095ca961958^sys_idNOT IN30a23ae9dbac5010447d2095ca96196e"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Insurance Applied">f8a23ae9dbac5010447d2095ca961958</action>
+        <cid>d644cd8b-b928-4441-8832-8ae14d1de25f</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:22</sys_created_on>
+        <sys_id>30a23ae9dbac5010447d2095ca96196e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=30a23ae9dbac5010447d2095ca96196e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>30a23ae9dbac5010447d2095ca96196e</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>05a23ae9dbac5010447d2095ca9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+ var notify = new sn_notify.NotifyScoped();
+ var from = '+12253963290';
+ var to = inputs["to"];
+ new notify.sendSMS(from, to, 'Hi '+ inputs["patientName"]+","+ '\n'+ 'Total Amount Requested for Insurance Claim is : '+ inputs["totalAmount"] + '\n'+ 'Your Request for Insurance Claim is InProgress'+'\n'+'Thank you.');
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>30a23ae9dbac5010447d2095ca96196e</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>41a23ae9dbac5010447d2095ca9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=30a23ae9dbac5010447d2095ca96196e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>30a23ae9dbac5010447d2095ca96196e</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>0da23ae9dbac5010447d2095ca9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>patientName</field>
+        <id>30a23ae9dbac5010447d2095ca96196e</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>8da23ae9dbac5010447d2095ca9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_30a23ae9dbac5010447d2095ca96196e</table>
+        <value>{{action.patient_name}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>30a23ae9dbac5010447d2095ca96196e</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>cda23ae9dbac5010447d2095ca9619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>to</field>
+        <id>30a23ae9dbac5010447d2095ca96196e</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>05a23ae9dbac5010447d2095ca9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_30a23ae9dbac5010447d2095ca96196e</table>
+        <value>{{action.to}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>totalAmount</field>
+        <id>30a23ae9dbac5010447d2095ca96196e</id>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>41a23ae9dbac5010447d2095ca9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_30a23ae9dbac5010447d2095ca96196e</table>
+        <value>{{action.total_amount}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=30a23ae9dbac5010447d2095ca96196e^sys_idNOT IN0da23ae9dbac5010447d2095ca9619a2,34a23ae9dbac5010447d2095ca96197d,7ca23ae9dbac5010447d2095ca961983"/>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>totalAmount</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>totalAmount</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">30a23ae9dbac5010447d2095ca96196e</model>
+        <model_id>30a23ae9dbac5010447d2095ca96196e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_30a23ae9dbac5010447d2095ca96196e</name>
+        <next_element/>
+        <order>200</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>0da23ae9dbac5010447d2095ca9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>to</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>to</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">30a23ae9dbac5010447d2095ca96196e</model>
+        <model_id>30a23ae9dbac5010447d2095ca96196e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_30a23ae9dbac5010447d2095ca96196e</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:22</sys_created_on>
+        <sys_id>34a23ae9dbac5010447d2095ca96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:22</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_hub_step_ext_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>patientName</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>patientName</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">30a23ae9dbac5010447d2095ca96196e</model>
+        <model_id>30a23ae9dbac5010447d2095ca96196e</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_input_30a23ae9dbac5010447d2095ca96196e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_input</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:23</sys_created_on>
+        <sys_id>7ca23ae9dbac5010447d2095ca961983</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:23</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_input>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_f8a23ae9dbac5010447d2095ca961958^sys_idNOT IN30a23ae9dbac5010447d2095ca96195f,b4a23ae9dbac5010447d2095ca96196b,f0a23ae9dbac5010447d2095ca961965"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>to</element>
+        <help/>
+        <hint/>
+        <label>to</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_f8a23ae9dbac5010447d2095ca961958</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:22</sys_created_on>
+        <sys_id>30a23ae9dbac5010447d2095ca96195f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>total_amount</element>
+        <help/>
+        <hint/>
+        <label>Total Amount</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_f8a23ae9dbac5010447d2095ca961958</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:22</sys_created_on>
+        <sys_id>b4a23ae9dbac5010447d2095ca96196b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>patient_name</element>
+        <help/>
+        <hint/>
+        <label>Patient Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_f8a23ae9dbac5010447d2095ca961958</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 08:32:22</sys_created_on>
+        <sys_id>f0a23ae9dbac5010447d2095ca961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:32:22</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

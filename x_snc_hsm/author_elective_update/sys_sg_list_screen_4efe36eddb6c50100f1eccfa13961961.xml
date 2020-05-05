@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen">
+    <sys_sg_list_screen action="DELETE">
+        <available_offline>false</available_offline>
+        <description>This is used for embeded list</description>
+        <dynamic_prefetch_count/>
+        <fetch_type>on_demand</fetch_type>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="icon-Compass">8efe36eddb6c50100f1eccfa1396195c</icon>
+        <name>drug</name>
+        <roles_override/>
+        <sys_class_name>sys_sg_list_screen</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-03 09:26:15</sys_created_on>
+        <sys_id>4efe36eddb6c50100f1eccfa13961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>drug</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_sg_list_screen_4efe36eddb6c50100f1eccfa13961961</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-03 09:26:15</sys_updated_on>
+    </sys_sg_list_screen>
+    <sys_translated_text action="DELETE" query="documentkey=4efe36eddb6c50100f1eccfa13961961"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</application>
+        <file_path/>
+        <instance_id>cfb231404f00d600facf220f0310c748</instance_id>
+        <instance_name>hackathon090</instance_name>
+        <name>sys_sg_list_screen_4efe36eddb6c50100f1eccfa13961961</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_list_screen"><sys_sg_list_screen action="INSERT_OR_UPDATE"><available_offline>false</available_offline><description>This is used for embeded list</description><dynamic_prefetch_count/><fetch_type>on_demand</fetch_type><hide_filters>false</hide_filters><hide_screen_name>false</hide_screen_name><icon display_value="icon-Compass">8efe36eddb6c50100f1eccfa1396195c</icon><name>drug</name><roles_override/><sys_class_name>sys_sg_list_screen</sys_class_name><sys_created_by>avssrikanth99</sys_created_by><sys_created_on>2020-05-03 09:26:15</sys_created_on><sys_id>4efe36eddb6c50100f1eccfa13961961</sys_id><sys_mod_count>0</sys_mod_count><sys_name>drug</sys_name><sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package><sys_policy/><sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope><sys_update_name>sys_sg_list_screen_4efe36eddb6c50100f1eccfa13961961</sys_update_name><sys_updated_by>avssrikanth99</sys_updated_by><sys_updated_on>2020-05-03 09:26:15</sys_updated_on></sys_sg_list_screen><sys_translated_text action="delete_multiple" query="documentkey=4efe36eddb6c50100f1eccfa13961961"/></record_update>]]></payload>
+        <payload_hash>-1769862796</payload_hash>
+        <record_name>drug</record_name>
+        <reverted_from/>
+        <source>28f9c38ddb2c1010447d2095ca9619ae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-03 09:26:15</sys_created_on>
+        <sys_id>cefe36eddb6c50100f1eccfa13961963</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d9db899b0000001</sys_recorded_at>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-03 09:26:15</sys_updated_on>
+        <type>List screen</type>
+        <update_guid>0afe36edce6c501015b241de4ffdb963</update_guid>
+        <update_guid_history>0afe36edce6c501015b241de4ffdb963:-1769862796</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-03 09:27:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_list_screen">sys_sg_list_screen</sys_db_object>
+        <sys_id>0b30ce52f0464205914ec18654e84341</sys_id>
+        <sys_metadata>4efe36eddb6c50100f1eccfa13961961</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>drug</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_scope_delete display_value="">2296593c1ecc48008ab2077093804000</sys_scope_delete>
+        <sys_update_name>sys_sg_list_screen_4efe36eddb6c50100f1eccfa13961961</sys_update_name>
+        <sys_update_version display_value="sys_sg_list_screen_4efe36eddb6c50100f1eccfa13961961">cefe36eddb6c50100f1eccfa13961963</sys_update_version>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-03 09:27:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

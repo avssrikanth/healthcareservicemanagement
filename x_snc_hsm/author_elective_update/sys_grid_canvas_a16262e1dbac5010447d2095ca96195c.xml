@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="DELETE">
+        <legacy_page display_value="PA Health Care Manageme - New Tab 2">296262e1dbac5010447d2095ca96195b</legacy_page>
+        <name>PA Health Care Manageme - New Tab 2</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 07:21:26</sys_created_on>
+        <sys_id>a16262e1dbac5010447d2095ca96195c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Health Care Manageme - New Tab 2</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_grid_canvas_a16262e1dbac5010447d2095ca96195c</sys_update_name>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 07:21:26</sys_updated_on>
+    </sys_grid_canvas>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</application>
+        <file_path/>
+        <instance_id>cfb231404f00d600facf220f0310c748</instance_id>
+        <instance_name>hackathon090</instance_name>
+        <name>sys_grid_canvas_a16262e1dbac5010447d2095ca96195c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas"><sys_grid_canvas action="INSERT_OR_UPDATE"><legacy_page display_value="PA Health Care Manageme - New Tab 2">296262e1dbac5010447d2095ca96195b</legacy_page><name>PA Health Care Manageme - New Tab 2</name><sys_class_name>sys_grid_canvas</sys_class_name><sys_created_by>pruthvi</sys_created_by><sys_created_on>2020-05-03 07:21:26</sys_created_on><sys_id>a16262e1dbac5010447d2095ca96195c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>PA Health Care Manageme - New Tab 2</sys_name><sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package><sys_policy/><sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope><sys_update_name>sys_grid_canvas_a16262e1dbac5010447d2095ca96195c</sys_update_name><sys_updated_by>pruthvi</sys_updated_by><sys_updated_on>2020-05-03 07:21:26</sys_updated_on></sys_grid_canvas></record_update>]]></payload>
+        <payload_hash>1404263220</payload_hash>
+        <record_name>PA Health Care Manageme - New Tab 2</record_name>
+        <reverted_from/>
+        <source>28f9c38ddb2c1010447d2095ca9619ae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 07:21:26</sys_created_on>
+        <sys_id>296262e1dbac5010447d2095ca96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d96941ab0000001</sys_recorded_at>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 07:21:26</sys_updated_on>
+        <type>Grid Canvas</type>
+        <update_guid>616262e11bac50106f501ecc93adcc5d</update_guid>
+        <update_guid_history>616262e11bac50106f501ecc93adcc5d:1404263220</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 07:21:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas">sys_grid_canvas</sys_db_object>
+        <sys_id>118bb51de70b4de88695292f34712ca4</sys_id>
+        <sys_metadata>a16262e1dbac5010447d2095ca96195c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Health Care Manageme - New Tab 2</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_scope_delete display_value="">2296593c1ecc48008ab2077093804000</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_a16262e1dbac5010447d2095ca96195c</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_a16262e1dbac5010447d2095ca96195c">296262e1dbac5010447d2095ca96195d</sys_update_version>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 07:21:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

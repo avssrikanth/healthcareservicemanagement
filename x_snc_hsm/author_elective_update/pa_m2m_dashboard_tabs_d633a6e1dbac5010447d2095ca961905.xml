@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="DELETE">
+        <dashboard display_value="Health Care Management">9571eaa1dbac5010447d2095ca961974</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>2</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 07:25:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d633a6e1dbac5010447d2095ca961905</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9571eaa1dbac5010447d2095ca961974</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_d633a6e1dbac5010447d2095ca961905</sys_update_name>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 07:25:01</sys_updated_on>
+        <tab display_value="Health Care Manageme - New Tab 2">9a33a6e1dbac5010447d2095ca961903</tab>
+    </pa_m2m_dashboard_tabs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</application>
+        <file_path/>
+        <instance_id>cfb231404f00d600facf220f0310c748</instance_id>
+        <instance_name>hackathon090</instance_name>
+        <name>pa_m2m_dashboard_tabs_d633a6e1dbac5010447d2095ca961905</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs"><pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE"><dashboard display_value="Health Care Management">9571eaa1dbac5010447d2095ca961974</dashboard><home>false</home><homepage/><order>2</order><sys_class_name>pa_m2m_dashboard_tabs</sys_class_name><sys_created_by>pruthvi</sys_created_by><sys_created_on>2020-05-03 07:25:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d633a6e1dbac5010447d2095ca961905</sys_id><sys_mod_count>0</sys_mod_count><sys_name>9571eaa1dbac5010447d2095ca961974</sys_name><sys_overrides/><sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package><sys_policy/><sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope><sys_update_name>pa_m2m_dashboard_tabs_d633a6e1dbac5010447d2095ca961905</sys_update_name><sys_updated_by>pruthvi</sys_updated_by><sys_updated_on>2020-05-03 07:25:01</sys_updated_on><tab display_value="Health Care Manageme - New Tab 2">9a33a6e1dbac5010447d2095ca961903</tab></pa_m2m_dashboard_tabs></record_update>]]></payload>
+        <payload_hash>-1255411340</payload_hash>
+        <record_name>9571eaa1dbac5010447d2095ca961974</record_name>
+        <reverted_from/>
+        <source>28f9c38ddb2c1010447d2095ca9619ae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 07:25:02</sys_created_on>
+        <sys_id>de33a6e1dbac5010447d2095ca961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d96c8d550000001</sys_recorded_at>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 07:25:02</sys_updated_on>
+        <type>Dashboard Tab</type>
+        <update_guid>1a33a6e19dac5010185dd18ca6948f06</update_guid>
+        <update_guid_history>1a33a6e19dac5010185dd18ca6948f06:-1255411340</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Health Care Management">eb33eae1dbac5010447d2095ca9619de</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-03 07:25:06</sys_created_on>
+        <sys_db_object display_value="" name="pa_m2m_dashboard_tabs">pa_m2m_dashboard_tabs</sys_db_object>
+        <sys_id>843cfd7e3d7b48f1a3d5fab8dd5e0109</sys_id>
+        <sys_metadata>d633a6e1dbac5010447d2095ca961905</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9571eaa1dbac5010447d2095ca961974</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_parent display_value="Health Care Management">9571eaa1dbac5010447d2095ca961974</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_scope_delete display_value="">2296593c1ecc48008ab2077093804000</sys_scope_delete>
+        <sys_update_name>pa_m2m_dashboard_tabs_d633a6e1dbac5010447d2095ca961905</sys_update_name>
+        <sys_update_version display_value="pa_m2m_dashboard_tabs_d633a6e1dbac5010447d2095ca961905">de33a6e1dbac5010447d2095ca961906</sys_update_version>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-03 07:25:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

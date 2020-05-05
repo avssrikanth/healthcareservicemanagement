@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="11d5e341dbac1010447d2095ca961955" sys_domain="global" table="x_snc_hsm_pharmacy" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>chalanbl</sys_created_by>
+            <sys_created_on>2020-05-03 11:37:23</sys_created_on>
+            <sys_id>7afcd7a1db209010447d2095ca961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_pharmacy" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">11d5e341dbac1010447d2095ca961955</sys_ui_section>
+            <sys_updated_by>chalanbl</sys_updated_by>
+            <sys_updated_on>2020-05-03 11:37:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <position>1</position>
+            <sys_created_by>chalanbl</sys_created_by>
+            <sys_created_on>2020-05-03 11:37:23</sys_created_on>
+            <sys_id>fefcd7a1db209010447d2095ca961989</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_pharmacy" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">11d5e341dbac1010447d2095ca961955</sys_ui_section>
+            <sys_updated_by>chalanbl</sys_updated_by>
+            <sys_updated_on>2020-05-03 11:37:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_pharmacy_bill</element>
+            <position>2</position>
+            <sys_created_by>chalanbl</sys_created_by>
+            <sys_created_on>2020-05-03 11:37:23</sys_created_on>
+            <sys_id>76fcd7a1db209010447d2095ca96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_pharmacy" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">11d5e341dbac1010447d2095ca961955</sys_ui_section>
+            <sys_updated_by>chalanbl</sys_updated_by>
+            <sys_updated_on>2020-05-03 11:37:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>chalanbl</sys_created_by>
+            <sys_created_on>2020-05-03 11:37:23</sys_created_on>
+            <sys_id>fafcd7a1db209010447d2095ca96198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_pharmacy" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">11d5e341dbac1010447d2095ca961955</sys_ui_section>
+            <sys_updated_by>chalanbl</sys_updated_by>
+            <sys_updated_on>2020-05-03 11:37:23</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_pd_number.u_patient_name</element>
+            <position>4</position>
+            <sys_created_by>chalanbl</sys_created_by>
+            <sys_created_on>2020-05-03 11:37:23</sys_created_on>
+            <sys_id>72fcd7a1db209010447d2095ca96198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_pharmacy" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">11d5e341dbac1010447d2095ca961955</sys_ui_section>
+            <sys_updated_by>chalanbl</sys_updated_by>
+            <sys_updated_on>2020-05-03 11:37:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_did_number.doctor_name</element>
+            <position>5</position>
+            <sys_created_by>chalanbl</sys_created_by>
+            <sys_created_on>2020-05-03 11:37:23</sys_created_on>
+            <sys_id>f6fcd7a1db209010447d2095ca96198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_pharmacy" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">11d5e341dbac1010447d2095ca961955</sys_ui_section>
+            <sys_updated_by>chalanbl</sys_updated_by>
+            <sys_updated_on>2020-05-03 11:37:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_case_reference</element>
+            <position>6</position>
+            <sys_created_by>chalanbl</sys_created_by>
+            <sys_created_on>2020-05-03 11:37:23</sys_created_on>
+            <sys_id>7efcd7a1db209010447d2095ca96198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_hsm_pharmacy" sys_domain="global" view="939aa3d8dbd300100f1eccfa139619a2">11d5e341dbac1010447d2095ca961955</sys_ui_section>
+            <sys_updated_by>chalanbl</sys_updated_by>
+            <sys_updated_on>2020-05-03 11:37:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_hsm_pharmacy</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>pruthvi</sys_created_by>
+            <sys_created_on>2020-05-01 22:59:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11d5e341dbac1010447d2095ca961955</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_hsm_pharmacy</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+            <sys_update_name>sys_ui_section_11d5e341dbac1010447d2095ca961955</sys_update_name>
+            <sys_updated_by>pruthvi</sys_updated_by>
+            <sys_updated_on>2020-05-01 22:59:05</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">939aa3d8dbd300100f1eccfa139619a2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

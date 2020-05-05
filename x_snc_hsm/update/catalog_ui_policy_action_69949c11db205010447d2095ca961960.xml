@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:71045811db205010447d2095ca96190e</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>pruthvi</sys_created_by>
+        <sys_created_on>2020-05-02 02:23:21</sys_created_on>
+        <sys_id>69949c11db205010447d2095ca961960</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reason_for_consulting_doctor</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_69949c11db205010447d2095ca961960</sys_update_name>
+        <sys_updated_by>pruthvi</sys_updated_by>
+        <sys_updated_on>2020-05-02 02:23:21</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Display of  timeslot and reason">09245811db205010447d2095ca961938</ui_policy>
+        <variable>reason_for_consulting_doctor</variable>
+        <variable_set display_value="Patient Details">b9d4730ddbac1010447d2095ca9619db</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

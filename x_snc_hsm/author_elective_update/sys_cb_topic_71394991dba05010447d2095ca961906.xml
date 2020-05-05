@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <category/>
+        <connect_queue/>
+        <description/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "907122ecea5947c181617219e52b2176": {
+      "id": "907122ecea5947c181617219e52b2176",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "e3e472b4cdeb40478b6a0453ca652f80": {
+          "id": "e3e472b4cdeb40478b6a0453ca652f80",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "19ff49a5f7ea4a9d9cc10fb519befdde": {
+          "id": "19ff49a5f7ea4a9d9cc10fb519befdde",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "8ba997a34de344bf905bd6996f59c75b",
+          "edgeType": "Edge",
+          "source": "e3e472b4cdeb40478b6a0453ca652f80",
+          "target": "19ff49a5f7ea4a9d9cc10fb519befdde",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {}
+}</graph>
+        <key_phrases>ts</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>ts</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 06:13:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>71394991dba05010447d2095ca961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ts</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_cb_topic_71394991dba05010447d2095ca961906</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 06:13:18</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="DELETE" query="document_key=71394991dba05010447d2095ca961906"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</application>
+        <file_path/>
+        <instance_id>cfb231404f00d600facf220f0310c748</instance_id>
+        <instance_name>hackathon090</instance_name>
+        <name>sys_cb_topic_71394991dba05010447d2095ca961906</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><category/><connect_queue/><description/><flexible_conversation_switching>false</flexible_conversation_switching><graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "907122ecea5947c181617219e52b2176": {
+      "id": "907122ecea5947c181617219e52b2176",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "e3e472b4cdeb40478b6a0453ca652f80": {
+          "id": "e3e472b4cdeb40478b6a0453ca652f80",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "19ff49a5f7ea4a9d9cc10fb519befdde": {
+          "id": "19ff49a5f7ea4a9d9cc10fb519befdde",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "8ba997a34de344bf905bd6996f59c75b",
+          "edgeType": "Edge",
+          "source": "e3e472b4cdeb40478b6a0453ca652f80",
+          "target": "19ff49a5f7ea4a9d9cc10fb519befdde",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {}
+}</graph><key_phrases>ts</key_phrases><library>false</library><live_agent>false</live_agent><name>ts</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><roles/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-02 06:13:18</sys_created_on><sys_domain>global</sys_domain><sys_id>71394991dba05010447d2095ca961906</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ts</sys_name><sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package><sys_policy/><sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope><sys_update_name>sys_cb_topic_71394991dba05010447d2095ca961906</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-02 06:13:18</sys_updated_on><variables/></sys_cb_topic><sys_variable_value action="delete_multiple" query="document_key=71394991dba05010447d2095ca961906"/></record_update>]]></payload>
+        <payload_hash>747102645</payload_hash>
+        <record_name>ts</record_name>
+        <reverted_from/>
+        <source>28f9c38ddb2c1010447d2095ca9619ae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 06:13:19</sys_created_on>
+        <sys_id>8e3989d1dba05010447d2095ca96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d40488ef0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 06:13:19</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>c63989d11fa0501052e7a2cbfa603b9e</update_guid>
+        <update_guid_history>c63989d11fa0501052e7a2cbfa603b9e:747102645</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-02 06:14:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>1da8b4b9a4394b94a7fde6a23505bae4</sys_id>
+        <sys_metadata>71394991dba05010447d2095ca961906</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ts</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_scope_delete display_value="">2296593c1ecc48008ab2077093804000</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_71394991dba05010447d2095ca961906</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_71394991dba05010447d2095ca961906">8e3989d1dba05010447d2095ca96199e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-02 06:14:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

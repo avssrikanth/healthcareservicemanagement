@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_browser_screen">
+    <sys_sg_browser_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <description/>
+        <dynamic_prefetch_count/>
+        <external_browser>false</external_browser>
+        <fetch_type>not_required</fetch_type>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>true</hide_screen_name>
+        <icon display_value="icon-Globe">cdfc48a5dbe450100f1eccfa139619f9</icon>
+        <name>Knowledge</name>
+        <relative_url>false</relative_url>
+        <roles_override/>
+        <sys_class_name>sys_sg_browser_screen</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 20:29:21</sys_created_on>
+        <sys_id>33eb00a5dbe450100f1eccfa139619e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Knowledge</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_sg_browser_screen_33eb00a5dbe450100f1eccfa139619e9</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:29:21</sys_updated_on>
+        <url>/kb</url>
+    </sys_sg_browser_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=33eb00a5dbe450100f1eccfa139619e9"/>
+</record_update>

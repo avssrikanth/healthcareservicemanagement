@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="HealthCare Diagnostic" language="en" table="x_snc_hsm_diagnostic">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>HealthCare Diagnostic</label>
+            <language>en</language>
+            <name>x_snc_hsm_diagnostic</name>
+            <plural>HealthCare Diagnostics</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-05-01 22:35:46</sys_created_on>
+            <sys_id>7b70af4ddb6c1010447d2095ca96193c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>HealthCare Diagnostic</sys_name>
+            <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_hsm_diagnostic__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-05-01 23:02:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

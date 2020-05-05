@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list">
+    <sys_aw_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="My CASES">c5ce4d19dba05010447d2095ca9619fd</category>
+        <columns>number,u_state,u_substate,u_type_of_case,u_patient_history.u_patient_name,u_date_of_appointment,u_timeslot,u_issue_description</columns>
+        <condition/>
+        <groups/>
+        <list_attributes/>
+        <order>10</order>
+        <roles/>
+        <sys_class_name>sys_aw_list</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 06:41:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>38fe0159dba05010447d2095ca961930</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Cases</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_aw_list_38fe0159dba05010447d2095ca961930</sys_update_name>
+        <sys_updated_by>chalanbl</sys_updated_by>
+        <sys_updated_on>2020-05-03 12:51:41</sys_updated_on>
+        <table>x_snc_hsm_case</table>
+        <title>Cases</title>
+        <workspace display_value="Doctor">afca4155dba05010447d2095ca9619d4</workspace>
+    </sys_aw_list>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg">
+    <sys_push_notif_msg action="INSERT_OR_UPDATE">
+        <message_string>Congratulations !!  Your insurance claim is successful  and your bill is payed  :)</message_string>
+        <name>CONGRATULATION</name>
+        <push_app display_value="ServiceNow Request Application">ac7f61d273122300d63a566a4cf6a78b</push_app>
+        <push_message_content display_value="appointments">e0d1eee9db2c50100f1eccfa13961966</push_message_content>
+        <subject/>
+        <sys_class_name>sys_push_notif_msg</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-03 08:04:51</sys_created_on>
+        <sys_id>dd8b6e61db6c50100f1eccfa13961991</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CONGRATULATION</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_push_notif_msg_dd8b6e61db6c50100f1eccfa13961991</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-03 08:04:51</sys_updated_on>
+        <table>x_snc_hsm_case</table>
+        <type>push</type>
+    </sys_push_notif_msg>
+</record_update>

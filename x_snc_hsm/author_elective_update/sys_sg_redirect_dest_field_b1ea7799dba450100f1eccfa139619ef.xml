@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_redirect_dest_field">
+    <sys_sg_redirect_dest_field action="DELETE">
+        <button display_value="Go to campaigns">f1ea7799dba450100f1eccfa139619de</button>
+        <button_table/>
+        <constant_value/>
+        <destination_ui_parameter display_value="Add Comment">705d2a67731333001bef3ae234f6a764</destination_ui_parameter>
+        <source_field/>
+        <source_ui_parameter/>
+        <sys_class_name>sys_sg_redirect_dest_field</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 19:09:38</sys_created_on>
+        <sys_id>b1ea7799dba450100f1eccfa139619ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>705d2a67731333001bef3ae234f6a764</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_sg_redirect_dest_field_b1ea7799dba450100f1eccfa139619ef</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 19:09:38</sys_updated_on>
+        <type>field</type>
+    </sys_sg_redirect_dest_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</application>
+        <file_path/>
+        <instance_id>cfb231404f00d600facf220f0310c748</instance_id>
+        <instance_name>hackathon090</instance_name>
+        <name>sys_sg_redirect_dest_field_b1ea7799dba450100f1eccfa139619ef</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_redirect_dest_field"><sys_sg_redirect_dest_field action="INSERT_OR_UPDATE"><button display_value="Go to campaigns">f1ea7799dba450100f1eccfa139619de</button><button_table/><constant_value/><destination_ui_parameter display_value="Add Comment">705d2a67731333001bef3ae234f6a764</destination_ui_parameter><source_field/><source_ui_parameter/><sys_class_name>sys_sg_redirect_dest_field</sys_class_name><sys_created_by>avssrikanth99</sys_created_by><sys_created_on>2020-05-02 19:09:38</sys_created_on><sys_id>b1ea7799dba450100f1eccfa139619ef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>705d2a67731333001bef3ae234f6a764</sys_name><sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package><sys_policy/><sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope><sys_update_name>sys_sg_redirect_dest_field_b1ea7799dba450100f1eccfa139619ef</sys_update_name><sys_updated_by>avssrikanth99</sys_updated_by><sys_updated_on>2020-05-02 19:09:38</sys_updated_on><type>field</type></sys_sg_redirect_dest_field></record_update>]]></payload>
+        <payload_hash>1186652911</payload_hash>
+        <record_name>705d2a67731333001bef3ae234f6a764</record_name>
+        <reverted_from/>
+        <source>28f9c38ddb2c1010447d2095ca9619ae</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 19:09:38</sys_created_on>
+        <sys_id>f1ea7799dba450100f1eccfa139619f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171d6cb45990000001</sys_recorded_at>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 19:09:38</sys_updated_on>
+        <type>Redirection destination fields</type>
+        <update_guid>3dea779922a450100c2cea5e03c844f0</update_guid>
+        <update_guid_history>3dea779922a450100c2cea5e03c844f0:1186652911</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 19:20:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_redirect_dest_field">sys_sg_redirect_dest_field</sys_db_object>
+        <sys_id>33461426e9f8432897de2e030567fa84</sys_id>
+        <sys_metadata>b1ea7799dba450100f1eccfa139619ef</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>705d2a67731333001bef3ae234f6a764</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_scope_delete display_value="">2296593c1ecc48008ab2077093804000</sys_scope_delete>
+        <sys_update_name>sys_sg_redirect_dest_field_b1ea7799dba450100f1eccfa139619ef</sys_update_name>
+        <sys_update_version display_value="sys_sg_redirect_dest_field_b1ea7799dba450100f1eccfa139619ef">f1ea7799dba450100f1eccfa139619f1</sys_update_version>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 19:20:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_navigation_tab_map">
+    <sys_sg_navigation_tab_map action="INSERT_OR_UPDATE">
+        <navigation display_value="HealthCare Service Mangement">a8a7338ddbac1010447d2095ca961965</navigation>
+        <navigation_tab display_value="Settings">2cec13ca53d033002d96ddeeff7b123c</navigation_tab>
+        <order>50</order>
+        <sys_class_name>sys_sg_navigation_tab_map</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-02 06:11:07</sys_created_on>
+        <sys_id>fca841d1dba05010447d2095ca961991</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_sg_navigation_tab_map_fca841d1dba05010447d2095ca961991</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-02 20:31:19</sys_updated_on>
+    </sys_sg_navigation_tab_map>
+</record_update>

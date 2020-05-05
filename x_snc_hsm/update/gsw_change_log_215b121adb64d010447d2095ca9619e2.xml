@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2020-05-05 14:46:00</change_date>
+        <changed_by display_value="Brad pitt">ed634309db2c1010447d2095ca96194d</changed_by>
+        <content display_value="Notification Triggers">7ea082e2db402300f88551035e96199f</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-05 14:46:00</sys_created_on>
+        <sys_id>215b121adb64d010447d2095ca9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2020-05-05 14:46:00</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>gsw_change_log_215b121adb64d010447d2095ca9619e2</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-05 14:46:00</sys_updated_on>
+        <type>4</type>
+    </gsw_change_log>
+</record_update>

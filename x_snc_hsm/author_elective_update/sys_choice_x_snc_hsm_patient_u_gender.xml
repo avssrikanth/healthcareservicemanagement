@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_gender" table="x_snc_hsm_patient" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gender</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MALE</label>
+            <language>en</language>
+            <name>x_snc_hsm_patient</name>
+            <sequence>0</sequence>
+            <sys_created_by>avssrikanth99</sys_created_by>
+            <sys_created_on>2020-05-01 21:38:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37439b85db6c1010447d2095ca961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>avssrikanth99</sys_updated_by>
+            <sys_updated_on>2020-05-01 21:38:09</sys_updated_on>
+            <value>male</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gender</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>FEMALE</label>
+            <language>en</language>
+            <name>x_snc_hsm_patient</name>
+            <sequence>1</sequence>
+            <sys_created_by>avssrikanth99</sys_created_by>
+            <sys_created_on>2020-05-01 21:38:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77439b85db6c1010447d2095ca961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>avssrikanth99</sys_updated_by>
+            <sys_updated_on>2020-05-01 21:38:09</sys_updated_on>
+            <value>female</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_gender</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OTHER</label>
+            <language>en</language>
+            <name>x_snc_hsm_patient</name>
+            <sequence>2</sequence>
+            <sys_created_by>avssrikanth99</sys_created_by>
+            <sys_created_on>2020-05-01 21:38:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f3439b85db6c1010447d2095ca961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>avssrikanth99</sys_updated_by>
+            <sys_updated_on>2020-05-01 21:38:09</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_gender</element>
+            <name>x_snc_hsm_patient</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>avssrikanth99</sys_created_by>
+            <sys_created_on>2020-05-01 21:38:09</sys_created_on>
+            <sys_id>7f439b85db6c1010447d2095ca961976</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_gender</sys_name>
+            <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+            <sys_update_name>sys_choice_x_snc_hsm_patient_u_gender</sys_update_name>
+            <sys_updated_by>avssrikanth99</sys_updated_by>
+            <sys_updated_on>2020-05-01 21:38:09</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

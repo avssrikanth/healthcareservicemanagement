@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Number of insurance records">b9a0bb2ddbec50100f1eccfa139619b0</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>avssrikanth99</sys_created_by>
+        <sys_created_on>2020-05-03 13:03:19</sys_created_on>
+        <sys_id>31a0bb2ddbec50100f1eccfa139619b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b9a0bb2ddbec50100f1eccfa139619b0</sys_name>
+        <sys_package display_value="Healthcare" source="x_snc_hsm">20f9c74ddb2c1010447d2095ca96193c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Healthcare">20f9c74ddb2c1010447d2095ca96193c</sys_scope>
+        <sys_update_name>sys_report_users_groups_31a0bb2ddbec50100f1eccfa139619b1</sys_update_name>
+        <sys_updated_by>avssrikanth99</sys_updated_by>
+        <sys_updated_on>2020-05-03 13:03:19</sys_updated_on>
+        <user_id display_value="Brad pitt">ed634309db2c1010447d2095ca96194d</user_id>
+    </sys_report_users_groups>
+</record_update>

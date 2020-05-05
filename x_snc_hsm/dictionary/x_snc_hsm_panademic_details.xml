@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="pandemic details" max_length="40" name="x_snc_hsm_panademic_details" sizeclass="15" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Date" max_length="40" name="u_glide_date_1" type="glide_date"/>
+        <element label="Confirmed" max_length="40" name="u_integer_6" type="integer"/>
+        <element label="Recovered" max_length="40" name="u_integer_7" type="integer"/>
+        <element label="Deaths" max_length="40" name="u_integer_8" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Country Name" max_length="40" name="u_string_1" type="string"/>
+    </element>
+</database>
